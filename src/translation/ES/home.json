@@ -1,0 +1,26 @@
+{
+    "banner": {
+        "title": "PROYECTO EN DESARROLLO",
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos"
+    },
+    "home": {
+        "subtitle": "Desarrollador Pila Completa",
+        "title": "Desarrollando ",
+        "title1": "soluciones ",
+        "title2": "",
+        "title3": "inteligentes, ",
+        "title4": "construyendo ",
+        "title5": "relaciones ",
+        "title6": "",
+        "title7": "cercanas",
+        "paragraph": "Hey! Como estás? Te cuento sobre mi brevemente, soy desarrollador web full stack MERN/PERN. Soy una persona muy constante, me gusta trabajar en equipo y forjar relaciones sanas. Pongo a la persona que está detrás del profesional por encima de todo y destaco mucho los valores, la ética y la moral del de a lado.",
+        "btnTitle1": "SOBRE MI",
+        "btnTitle2": "CONOCEME",
+        "btnTitle3": "Curriculum",
+        "modal" : "Hola, soy FabiDev"
+    }
+}
+

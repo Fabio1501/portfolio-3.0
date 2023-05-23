@@ -1,0 +1,25 @@
+{
+    "banner": {
+        "title": "PROJECT IN DEVELOPMENT",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds"
+    },
+    "home": {
+        "subtitle": "Full Stack Developer",
+        "title": "Developing ",
+        "title1": "",
+        "title2": "smart ",
+        "title3": "solutions, ",
+        "title4": "building ",
+        "title5": "",
+        "title6": "close ",
+        "title7": "relationships",
+        "paragraph": "Hey! How are you? I tell you about my briefly, I am a full stack web developer MERN / PERN. I am a very constant person, I like to work in a team and forge healthy relationships. I put the person behind the professional above all else and I emphasize the values, ethics and morals of the one next door.",
+        "btnTitle1": "ABOUT US",
+        "btnTitle2": "KNOW ME",
+        "btnTitle3": "Curriculum",
+        "modal" : "Hi, i'm FabiDev"
+    }
+}
