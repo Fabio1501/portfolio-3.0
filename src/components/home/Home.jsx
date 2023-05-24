@@ -10,7 +10,7 @@ import {SiPostgresql} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
 import {BsArrowUpRight} from 'react-icons/bs'
 
-import fabiDev from "../../assets/fabiDev sin fondo.png"
+import fabiDev from "../../assets/FabiDEV sin fondo.png"
 
 
 export default function Home() {
