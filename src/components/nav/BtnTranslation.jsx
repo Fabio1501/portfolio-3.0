@@ -1,6 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import spain from '../../assets/español.png'
-import england from '../../assets/ingles.png'
 import { useState } from 'react';
 import { TbLanguage } from 'react-icons/tb'
 
