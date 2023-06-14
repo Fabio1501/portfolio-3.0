@@ -5,7 +5,7 @@ export default function CountDown() {
 
   const [t, i18n] = useTranslation("home")
 
-  const expiryTimestamp = new Date('06/17/23');
+  const expiryTimestamp = new Date('06/22/23');
   const { seconds, minutes, hours, days } = useTimer({
       expiryTimestamp,
   });
