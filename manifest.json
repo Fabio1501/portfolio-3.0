@@ -1,0 +1,24 @@
+{
+    "name": "FabiDev",
+    "short_name": "FabiDev",
+    "description": "Hola, me llamo Fabián. Esta es mi aplicación para moviles PWA. Hice esto para que cualquiera tenga un desarrollador web al alcance de un click para poder contactarme! Saludos y que la disfruten!",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./src/assets/portfolio - logo header.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./src/assets/portfolio - logo header.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ]
+}
