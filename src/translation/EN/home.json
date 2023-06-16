@@ -21,5 +21,18 @@
         "btnTitle2": "KNOW ME",
         "btnTitle3": "Curriculum",
         "modal" : "Hi, i'm FabiDev"
+    },
+    "nav" :{
+        "home" : "Home",
+        "projects" : "Projects",
+        "contact"  : "Contact",
+        "blog" : "Blog"
+    },
+    "footer" : {
+        "rights" : "All rights reserved.",
+        "contact" : "Contact Me",
+        "btn" : "subscribe",
+        "placeholder" : "Your email address...",
+        "follow" : "Follow Us" 
     }
 }

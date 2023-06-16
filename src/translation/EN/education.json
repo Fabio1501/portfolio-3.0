@@ -1,0 +1,102 @@
+{
+    "education" : {
+        "henryDev" : {
+            "title" : "Full Stack Developer",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "11/10/22 - 08/02/2023",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        "henryTa" : {
+            "title" : "Full Stack Developer",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "11/10/22 - 08/02/2023",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        "ingenieriaSist" : {
+            "title" : "Full Stack Developer",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "11/10/22 - 08/02/2023",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        }
+    },
+    "experience": {
+        "neurona" : {
+            "title" : "Software Engineer",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actualidad",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                }
+            }
+        },
+        "mercadoSolidario" : {
+            "title" : "Software Engineer",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actualidad",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                }
+            }
+        },
+        "mandala" : {
+            "title" : "Software Engineer",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actualidad",
+            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "services": {
+        "subtitle": "MY SERVICES",
+        "title": "How I",
+        "title2": " stand out",
+        "paragraph": "Creation of intuitive and attractive user interfaces using cutting-edge technologies.Creation of intuitive and attractive user interfaces using cutting-edge technologies.Creation of intuitive and attractive user interfaces using cutting-edge technologies.Creation of intuitive and attractive user interfaces using cutting-edge technologies.",
+        "btn": "View more",
+        "serviceTitle1": "E-commerce development",
+        "servicePragraph1": "Creation of online stores, integration of e-commerce platforms such as Shopify, WooCommerce.",
+        "serviceTitle2": "Web design and development",
+        "servicePragraph2": "Creation of intuitive, amazing and attractive user interfaces using cutting-edge technologies.",
+        "serviceTitle3": "REST API development",
+        "servicePragraph3": "Creation of robust and scalable backend APIs using technologies such as Node.js and Express.js.",
+        "serviceTitle4": "Integration of external services",
+        "servicePragraph4": "I connect your application with external services and third-party APIs to improve the user experience."
+    },
+    "aboutus": {
+        "subtitle": "HOW I DO MY JOB",
+        "title": "I use my creativity to meet the needs of my clients",
+        "paragraph": "With a focus on quality, usability and performance, I am committed to providing technology solutions that drive the success and satisfaction of my customers.",
+        "serviceTitle1": "Clean Code",
+        "servicePragraph1": "I distinguish myself by my focus on writing clean and readable code. I use structured and modular programming practices, which facilitates its understanding and long-term maintenance.",
+        "serviceTitle2": "Modern Design",
+        "servicePragraph2": "I seek to balance functionality with aesthetics, making sure that each visual element has a clear purpose and contributes to a smooth user experience."
+    }
+}
