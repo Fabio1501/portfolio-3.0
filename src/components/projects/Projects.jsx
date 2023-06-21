@@ -55,6 +55,16 @@ import mandalaMobile5 from "../../assets/projects/mandala/mandala-design-mobile-
 import mandalaMobile6 from "../../assets/projects/mandala/mandala-design-mobile-6.png"
 import mandalaMobile7 from "../../assets/projects/mandala/mandala-design-mobile-7.png"
 
+import portfolio from "../../assets/projects/portfolio/portfolio.png"
+import portfolio2 from "../../assets/projects/portfolio/portfolio2.png"
+import portfolio3 from "../../assets/projects/portfolio/portfolio3.png"
+import portfolio4 from "../../assets/projects/portfolio/portfolio4.png"
+import portfolio5 from "../../assets/projects/portfolio/portfolio5.png"
+import portfolio6 from "../../assets/projects/portfolio/portfolio6.png"
+import portfolio7 from "../../assets/projects/portfolio/portfolio7.png"
+import portfolio8 from "../../assets/projects/portfolio/portfolio8.png"
+
+
 
 function Projects() {
   
@@ -127,25 +137,28 @@ function Projects() {
     {
       slides : [
         {
-          url: mercadoSolidarioHome,
+          url: portfolio,
         },
         {
-          url: mercadoSolidarioDashboard,
+          url: portfolio2,
         },
         {
-          url:mercadoSolidarioEquipo,
+          url:portfolio3,
         },
         {
-          url: mercadoSolidarioaIniciativas,
+          url: portfolio4,
         },
         {
-          url: mercadoSolidarioNosotros,
+          url: portfolio5,
         },
         {
-          url: mercadoSolidarioReviews,
+          url: portfolio6,
         },
         {
-          url: mercadoSolidarioCausas,
+          url: portfolio7,
+        },
+        {
+          url: portfolio8,
         },
       ],
       title: t("projects2.title"),
@@ -174,20 +187,12 @@ function Projects() {
       ],
       description: t("projects2.description"),
       urls: {
-        deploy: "https://neurona.site/",
-        repository: "https://github.com/neuronacorp/neurona"
+        deploy: "https://fabidev.vercel.app/",
+        repository: "https://github.com/Fabio1501/portfolio-3.0"
       },
-      mobile: true,
+      mobile: false,
       mobileImages: [
-        neuronaMobile,
-        neuronaMobile2,
-        neuronaMobile3,
-        neuronaMobile4,
-        neuronaMobile5,
-        neuronaMobile6,
-        neuronaMobile7,
-        neuronaMobile8,
-        neuronaMobile9
+        
       ]
     },
     {

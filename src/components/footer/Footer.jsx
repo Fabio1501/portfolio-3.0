@@ -34,7 +34,6 @@ const Footer = () => {
             setIsSuccess(true)
             setSubscribe('')
           } catch (error) {
-            console.log(error);
             setIsHidden(false)
             setIsSuccess(false)
           } finally {
@@ -126,7 +125,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <Alert isSuccess={isSuccess} isHidden={isHidden} setIsHidden = {setIsHidden}/>
+            <Alert isSuccess={isSuccess} isHidden={isHidden} setIsHidden = {setIsHidden} titleSuccess={`¡Muchas gracias por suscribirte!`} titleError={`Algo salió mal, vuelve a intentarlo!`} textSuccess={`Hola! Revisa tu casilla de correo.`} textError={`Lo siento, puedes volver a intentarlo en segundos.`}/>
         </footer>
     )
 }

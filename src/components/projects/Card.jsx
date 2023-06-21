@@ -9,19 +9,16 @@ import {SiJavascript} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
 import {SiExpress} from 'react-icons/si'
 import {BsBoxArrowUpRight} from 'react-icons/bs'
-import {TbWorldUpload} from 'react-icons/tb'
 import {TbBrandCss3} from 'react-icons/tb'
 import {SiPrisma} from 'react-icons/si'
 import {SiHtml5} from 'react-icons/si'
 import {ImMobile} from 'react-icons/im'
 
 import {AiOutlineSplitCells} from 'react-icons/ai'
+import {BsGithub} from 'react-icons/bs'
 import {AiFillHome} from 'react-icons/ai'
 import {BsFillGearFill} from 'react-icons/bs'
 import {BsFillPersonFill} from 'react-icons/bs'
-import {RxDoubleArrowUp} from 'react-icons/rx'
-import {RxDoubleArrowDown} from 'react-icons/rx'
-
 
 import neuronaHome from "../../assets/projects/neurona/neurona-home.png"
 
@@ -103,20 +100,20 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
             <hr className='opacity-30'/>
             <p className='text-gray-400 text-sm xl:text-lg'>{description}</p>
             <div className='flex items-center gap-x-2 xl:gap-x-4'>
-                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl bg-green-700 hover:bg-green-600 hover:cursor-pointer font-semibold rounded-xl'>
+                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl bg-green-700 border-green-700 border-2 hover:bg-green-600 hover:cursor-pointer font-semibold rounded-xl'>
                     <a href={urls.deploy} target='_blank'>Ver OnLine</a>
-                    <TbWorldUpload></TbWorldUpload>
-                </div>
-                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl border-green-600 border-2 rounded-xl hover:bg-white/5'>
-                    <a href='' target='_blank'>Ver Repo</a>
                     <BsBoxArrowUpRight></BsBoxArrowUpRight>
+                </div>
+                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl border-green-600 border-2 rounded-xl hover:cursor-pointer hover:bg-white/5'>
+                    <a href={urls.repository} target='_blank'>Ver Repo</a>
+                    <BsGithub></BsGithub>
                 </div>
             </div>
         </div>
         <div 
         onClick={() => setHiddenMobile(true)}
         className={`${hiddenMobile ? 'hidden' : 'fixed'} w-full h-full flex items-center justify-center top-0 left-0 z-10 p-4 overflow-x-hidden overflow-y-auto md:inset-0 backdrop-blur-sm bg-black/20`}>
-            <div className="scroll-dark overflow-x-hidden overflow-y-auto relative mx-auto border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[678px] w-[388px] shadow-xl">
+            <div className="scroll-dark overflow-x-hidden overflow-y-auto relative mx-auto border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[608px] w-[388px] shadow-xl">
                 <div className='camera w-44 h-44 pt-0 bg-gray-800 rounded-full fixed top-[230px] xl:top-[32px] left-1/2 -translate-x-1/2 '></div>
                 
                 <div className="rounded-[2rem] w-[360px]">

@@ -9,6 +9,7 @@ import branding from '../../assets/services - branding.png'
 import webDesign from '../../assets/services - web-design.png'
 import apiRest from '../../assets/services - apirest.png'
 import integrations from '../../assets/services - integration.png'
+import { Link } from "react-router-dom";
 
 const Services = () => {
     
@@ -40,20 +41,20 @@ const Services = () => {
                     <div className="w-full mt-6 font-normal ">
                         <p>{t("services.paragraph")}</p>
                     </div>
-                    <a href="https://fabidev.vercel.app/projects" target="_blank" className="flex justify-center items-center gap-x-2 text-center px-3 py-2 hover:bg-green-600  text-white font-semibold md:px-8 md:py-3 bg-green-700 lg:w-fit mt-12">
+                    <Link to={`/projects`} className="flex justify-center items-center gap-x-2 text-center px-3 py-2 hover:bg-green-600  text-white font-semibold md:px-8 md:py-3 bg-green-700 lg:w-fit mt-12">
                         <span className="text-lg md:text-2xl">{t("services.btn")}</span>
                         <AiOutlineEye className="text-2xl font-bold"></AiOutlineEye>
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex flex-col lg:flex-row items-center gap-y-4 w-full lg:w-1/2 gap-x-4">
                     <div className="w-full flex flex-col items-center text-white text-center gap-y-4">
                         <div id="service1" className="flex flex-col items-center p-4 bg-white/5">
-                            <img src={branding} alt="branding" />
+                            <img src={webDesign} alt="branding" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle1")}</h3>
                             <p className="mt-4">{t("services.servicePragraph1")}</p>
                         </div>
                         <div className="flex flex-col items-center p-4 bg-gradient-to-b from-white/5 to-green-600/10">
-                            <img src={webDesign} alt="webDesign" />
+                            <img src={branding} alt="webDesign" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle2")}</h3>
                             <p className="mt-4">{t("services.servicePragraph2")}</p>
                         </div>
