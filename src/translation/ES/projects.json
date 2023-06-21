@@ -2,12 +2,12 @@
     "projects1": {
         "title": "NEURONA CORP",
         "description": "Landing page de la startup Neurona Corp, desarrollada durante 1 mes junto al equipo de dicha startup. La interfaz gráfica está pensada para darle una grata visión de lo que genera y provee Neurona Corp, además de ser muy futurista y moderna. Está desarrollada en React para las funcionalidades en el lado del front end y TailwindCss para los estilos. Además tiene integraciones con NodeMailer para la recepción y envío de mensajes a través de Gmail. También cuenta con una integración con CalendLy para poder contactar de forma inmediata, sin salir de la web, al CEO/CTO de la empresa.",
-        "date": "10/03/2023 - Actually"
+        "date": "10/03/2023 - Actualmente"
     },
     "projects2": {
         "title": "PORTAFOLIO FABIDEV",
         "description": "Mi portfolio, lo pensé mucho teniendo en cuenta mi marca personal, aportando valor a las personas que se animan a entrar al mundo IT y porque no a los que ya están hace bastante tiempo. Mi idea es promocionarme e invitar a reclutadores y/o posibles clientes a confiar en mis servicios. La interfaz gráfica me fue muy fácil definirla ya que desde el comienzo tenía una visión muy clara de lo que quería. Tiene integraciones con dos servicios de EmailJS para la recepción y envío de mensajes. Proximamente será ampliamente escalada, ya que, quiero que el usuario se sienta mucho más a gusto en mi web.",
-        "date": "15/05/2023 - Actually"
+        "date": "15/05/2023 - Actualmente"
     },
     "projects3": {
         "title": "MERCADO SOLIDARIO",
@@ -29,7 +29,7 @@
             "title" : "Full Stack Developer",
             "name" : "Soy Henry Bootcamp",
             "date" : "11/10/22 - 08/02/2023",
-            "description" : "Completé más de 800 horas de código, enfocándome tanto en habilidades técnicas como blandas. Destaqué entre los 3 únicos promocionados en pasar directamente a la etapa de proyecto final y fui parte del mejor proyecto grupal de mi cohorte. Adquirí conocimientos sólidos en desarrollo web y busco oportunidades para seguir creciendo y aplicando mis habilidades en el stack MERN/PERN con pasión y dedicación."
+            "description" : "Completé más de 800 horas de código, enfocándome tanto en habilidades técnicas como blandas. Destaqué entre los 3 únicos promocionados en pasar directamente a la etapa de proyecto final y fui parte del mejor proyecto grupal de mi cohorte. Adquirí conocimientos sólidos en desarrollo web, tanto en la parte del cliente como del servidor con el stack MERN/PERN. Además las habilidades blandas que adquirí son algo digno de resaltar."
         },
         "henryTa" : {
             "title" : "Asistente del profesor",
@@ -49,25 +49,25 @@
             "title" : "Ingeniero de Software",
             "name" : "Neurona Corp",
             "date" : "10/03/2023 - Actualidad",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description" : "Hace 3 meses me desempeño como desarrollador web en esta startup, mi experiencia es de lo más grata ya que me encontré con personas con muchas ganas de trabajar y superarse día a día. Mejoré en mis habilidades como autodidacta y de investigación de tecnologías desconocidas para mi hasta el momento en que pisé la startup. Además mi habilidad de gestión y organización del tiempo se vió muy favorecida.",
             "reviews" : {
                 "alvaro" : {
                     "name" : "Alvaro Quiroga",
                     "profession" : "CEO/CTO",
-                    "linkedin" : "https://linkedin.com",
-                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                    "linkedin" : "https://www.linkedin.com/in/alvaroquirogatoledo/",
+                    "description" : "Desde que Fabian comenzó a trabajar como Líder de proyectos en Neurona Corp, su desempeño ha sido bastante destacado, es un profesional ordenado, disciplinado, con visión y con un tremendo background técnico. Sin lugar a dudas lo recomiendo, y estoy seguro que será un tremendo aporte como Líder en otros equipos."
                 },
                 "bauti" : {
                     "name" : "Bautista Pietraroia",
                     "profession" : "Desarrollador full stack",
-                    "linkedin" : "https://linkedin.com",
-                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                    "linkedin" : "https://www.linkedin.com/in/bautista-pietraroia/",
+                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
                 },
                 "jonathan" : {
                     "name" : "Jonathan Díaz",
                     "profession" : "Desarrollador full stack",
-                    "linkedin" : "https://linkedin.com",
-                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                    "linkedin" : "https://www.linkedin.com/in/jonathan-diaz-olivares/",
+                    "description" : "Recomiendo a Fabian Carabajal por su destacada labor como líder técnico en Neurona Corp. Su liderazgo en el desarrollo del servicio de chatbot con respuesta automática, utilizando tecnologías de vanguardia como Node y React alojados en servicios AWS, ha sido excepcional. Su experiencia y habilidades han sido fundamentales para el éxito del proyecto."
                 }
             }
         },
@@ -75,25 +75,25 @@
             "title" : "Desarrollador Full Stack",
             "name" : "Mercado Solidario",
             "date" : "12/12/2022 - 08/02/2023",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description" : "Durante el desarrollo de este MVP para un cliente real, pude adquirir habilidades de iniciativa al desarrollar un producto, trabajo en equipo, comunicación efectiva y además de potenciar mis habilidades técnicas de forma enorme. Mi habilidad de autodidacta fue puesta a prueba muchas veces pero pude salir adelante logrando desarrollar todas las historias de usuario de forma efectiva y antes del tiempo establecido.",
             "reviews" : {
                 "delwin" : {
                     "name" : "Delwin Hernandez",
                     "profession" : "Desarrollador back end",
-                    "linkedin" : "https://linkedin.com",
-                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                    "linkedin" : "https://www.linkedin.com/in/delwin-hernandez-b926182b/",
+                    "description" : "Tuve el placer de colaborar con Fabián en el proyecto Mercado Solidario y puedo decir que fue una experiencia sumamente enriquecedora tanto a nivel personal como profesional. Tiene una habilidad impresionante para organizar y enfocar el trabajo hacia los objetivos establecidos mientras mantiene una actitud positiva y ayuda a sus compañeros a llegar a su máximo potencial. Además de su habilidad técnica, es una persona amigable y con mucha calidad humana. "
                 },
                 "gustavo" : {
                     "name" : "Gustavo Ramos",
                     "profession" : "Desarrollador front end",
-                    "linkedin" : "https://linkedin.com",
+                    "linkedin" : "https://www.linkedin.com/in/gustavo-ramos-full-stack/",
                     "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
                 },
                 "juli" : {
                     "name" : "Julian Lopez",
                     "profession" : "Desarrollador front end",
-                    "linkedin" : "https://linkedin.com",
-                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                    "linkedin" : "https://linkedin.com/in/julian-lopez-7b9746234/",
+                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
                 }
             }
         },
@@ -101,7 +101,7 @@
             "title" : "Desarrollador front end",
             "name" : "Mandala Diseños",
             "date" : "15/06/2022 - 25/08/2022",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description" : "La experiencia que adquirí en mi primer proyecto real y de forma individual fue de lo más enriquecedora. Desde el primer momento todo cobraba sentido para mi, pude sortear todas las adversidades de forma victoriosa, cumpliendo con todas las expectativas del cliente y entregandole el producto en menos tiempo del establecido. Las habilidades técnicas que adquirí no se comparan con nada a lo que venía haciendo anteriormente a esto.",
             "reviews" : {
                 "alvaro" : {
                     "name" : "Alvaro Quiroga",
@@ -123,5 +123,17 @@
                 }
             }
         }
+    },
+    "contact": {
+        "subtitle" : "CONTACTAME",
+        "title1" : "Trabajemos",
+        "title2" : "juntos",
+        "subtitle2" : "¡Enviame un mensaje!",
+        "paragraph" : "Si quieres contactarme por cualquier pregunta que tengas o si quieres que trabajemos juntos, no dudes en contactarme por cualquiera de mis redes.",
+        "placeholder1" : "Nombre",
+        "placeholder2" : "Email",
+        "placeholder3" : "Asunto",
+        "placeholder4" : "Mensaje",
+        "submit" : "Enviar mensaje"
     }
 }

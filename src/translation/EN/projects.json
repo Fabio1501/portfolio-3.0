@@ -7,7 +7,7 @@
     "projects2": {
         "title": "PORTFOLIO FABIDEV",
         "description": "My portfolio, I thought a lot taking into account my personal brand, bringing value to people who are encouraged to enter the IT world and why not to those who are already there for a long time. My idea is to promote myself and invite recruiters and / or potential clients to rely on my services. The graphical interface was very easy to define since from the beginning I had a very clear vision of what I wanted. It has integrations with two EmailJS services for receiving and sending messages. Soon it will be extensively scaled, because I want the user to feel much more comfortable on my website.",
-        "date": "15/05/2023 - Actualmente"
+        "date": "15/05/2023 - Actually"
     },
     "projects3": {
         "title": "SOLIDARITY MARKET",
@@ -48,52 +48,52 @@
         "neurona" : {
             "title" : "Software Engineer",
             "name" : "Neurona Corp",
-            "date" : "10/03/2023 - Actualidad",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "date" : "10/03/2023 - Actually",
+            "description" : "For 3 months I have been working as a web developer in this startup, my experience is very pleasant because I met people with a lot of desire to work and improve day by day. I improved in my skills as a self-taught and research of unknown technologies for me until the moment I stepped on the startup. In addition, my time management and organization skills were greatly improved.",
             "reviews" : {
                 "alvaro" : {
                     "name" : "Alvaro Quiroga",
                     "profession" : "CEO/CTO",
                     "linkedin" : "https://www.linkedin.com/in/alvaroquirogatoledo/",
-                    "description" : "Desde que Fabian comenzó a trabajar como Líder de proyectos en Neurona Corp, su desempeño ha sido bastante destacado, es un profesional ordenado, disciplinado, con visión y con un tremendo background técnico. Sin lugar a dudas lo recomiendo, y estoy seguro que será un tremendo aporte como Líder en otros equipos."
+                    "description" : "Since Fabian started working as a Project Leader at Neurona Corp, his performance has been quite outstanding, he is an orderly, disciplined professional, with vision and a tremendous technical background. Without a doubt I recommend him, and I am sure he will be a tremendous contribution as a leader in other teams."
                 },
                 "bauti" : {
                     "name" : "Bautista Pietraroia",
-                    "profession" : "Desarrollador full stack",
+                    "profession" : "Full Stack Developer",
                     "linkedin" : "https://www.linkedin.com/in/bautista-pietraroia/",
-                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
+                    "description" : "It was a privilege to work with Fabi, he is a great teammate and team leader. He is very proactive and brings great value to the team. He always demonstrated great programming skills and a lot of commitment. He made the collaborative work environment very pleasant."
                 },
                 "jonathan" : {
                     "name" : "Jonathan Díaz",
-                    "profession" : "Desarrollador full stack",
+                    "profession" : "Full Stack Developer",
                     "linkedin" : "https://www.linkedin.com/in/jonathan-diaz-olivares/",
-                    "description" : "Recomiendo a Fabian Carabajal por su destacada labor como líder técnico en Neurona Corp. Su liderazgo en el desarrollo del servicio de chatbot con respuesta automática, utilizando tecnologías de vanguardia como Node y React alojados en servicios AWS, ha sido excepcional. Su experiencia y habilidades han sido fundamentales para el éxito del proyecto."
+                    "description" : "I recommend Fabian Carabajal for his outstanding work as technical lead at Neurona Corp. His leadership in the development of the chatbot service with automatic response, using cutting-edge technologies such as Node and React hosted on AWS services, has been exceptional. His experience and skills have been critical to the success of the project."
                 }
             }
         },
         "mercadoSolidario" : {
-            "title" : "Software Engineer",
-            "name" : "Neurona Corp",
-            "date" : "10/03/2023 - Actualidad",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "title" : "Full Stack Developer",
+            "name" : "Solidarity Market",
+            "date" : "12/12/2022 - 08/02/2023",
+            "description" : "During the development of this MVP for a real client, I was able to acquire skills of initiative in developing a product, teamwork, effective communication and also to enhance my technical skills tremendously. My self-taught skills were put to the test many times but I was able to come out ahead by developing all the user stories effectively and ahead of schedule.",
             "reviews" : {
                 "delwin" : {
                     "name" : "Delwin Hernandez",
-                    "profession" : "Desarrollador back end",
+                    "profession" : "Back End Developer",
                     "linkedin" : "https://www.linkedin.com/in/delwin-hernandez-b926182b/",
                     "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
                 },
                 "gustavo" : {
                     "name" : "Gustavo Ramos",
-                    "profession" : "Desarrollador front end",
+                    "profession" : "Front End Developer",
                     "linkedin" : "https://www.linkedin.com/in/gustavo-ramos-full-stack/",
                     "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
                 },
                 "juli" : {
                     "name" : "Julian Lopez",
-                    "profession" : "Desarrollador front end",
+                    "profession" : "Front End Developer",
                     "linkedin" : "https://www.linkedin.com/in/julian-lopez-7b9746234/",
-                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
+                    "description" : "It was a privilege to work with Fabi, he is a great teammate and team leader. He is very proactive and brings great value to the team. He always demonstrated great programming skills and a lot of commitment. He made the collaborative work environment very pleasant."
                 }
             }
         },
@@ -101,7 +101,7 @@
             "title" : "Software Engineer",
             "name" : "Neurona Corp",
             "date" : "10/03/2023 - Actualidad",
-            "description" : "iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "description" : "The experience I gained in my first real project and individually was most enriching. From the first moment everything made sense to me, I was able to overcome all the adversities in a victorious way, fulfilling all the client's expectations and delivering the product in less time than established. The technical skills I acquired do not compare with anything I was doing before this.",
             "reviews" : {
                 "alvaro" : {
                     "name" : "Alvaro Quiroga",
@@ -121,6 +121,38 @@
                     "linkedin" : "https://linkedin.com",
                     "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
                 }
+            }
+        }
+    },
+    "contact": {
+        "subtitle" : "CONTACT ME",
+        "title1" : "Let's work",
+        "title2" : "together",
+        "subtitle2" : "Send me a message!",
+        "paragraph" : "If you want to contact me for any questions you have or if you want to work together, feel free to contact me through any of my networks.",
+        "placeholder1" : "Name",
+        "placeholder2" : "Email",
+        "placeholder3" : "Subject",
+        "placeholder4" : "Message",
+        "submit" : "Send message"
+    },
+    "blog": {
+        "title1": "Blog",
+        "title2": " personal",
+        "filter1": "Todos",
+        "filter2": "Crecimiento Personal",
+        "filter3": "Inteligencia Artificial",
+        "filter4": "Desarrollo Web",
+        "title3": "Videos",
+        "title4": "YouTube",
+        "filter5": "Todos",
+        "filter6": "Videos",
+        "filter7": "Cortos",
+        "post1": {
+            "title": "Descubre las ventajas de utilizar Tailwind en el desarrollo web",
+            "description" : "Para lograr sitios web atractivos, funcionales y eficientes, es muy importante utilizar herramientas que optimicen el proceso de diseño y desarrollo. En este sentido, Tailwind se ha posicionado como una opción popular entre los desarrolladores web debido a sus numerosas ventajas. En este artículo, exploraremos las razones por las cuales Tailwind se ha convertido en una herramienta crucial para muchos profesionales en el mundo del desarrollo web.",
+            "post": {
+                "introduction" : "Para lograr sitios web atractivos, funcionales y eficientes, es crucial utilizar herramientas y tecnologías que optimicen el proceso de diseño y desarrollo. En este sentido, Tailwind se ha posicionado como una opción popular entre los desarrolladores web debido a sus numerosas ventajas. En este artículo, exploraremos las razones por las cuales Tailwind se ha convertido en una herramienta indispensable para muchos profesionales en el mundo del desarrollo web."
             }
         }
     }
