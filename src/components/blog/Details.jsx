@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { post } from "./Blog";
 
 import {BsLinkedin} from 'react-icons/bs'
@@ -97,7 +98,7 @@ const Details = () => {
                                     key={post.id}
                                     className="w-full md:w-1/2 lg:w-full font-semibold hover:scale-[1.01]"
                                     to={`/blog/${post.id}`}>
-                                        <img className="" src={post.img} alt={post.title} />
+                                        <LazyLoadImage className="" src={post.img} alt={post.title} />
                                         <h3 className="text-white font-semibold text-xl">{post.title}</h3>
                                         <span>{post.date}</span>
                                     </Link>

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import {FaReact} from 'react-icons/fa'
@@ -48,7 +50,7 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
         <div className='h-full w-full m-auto relative group rounded-t-2xl'>
             <div
             className='w-full h-full rounded-t-2xl bg-center bg-cover duration-500'>
-                <img src={`${slides ? slides[currentIndex]?.url : neuronaHome}`} alt="ups hubo un error" className='w-full rounded-t-2xl'/>
+                <LazyLoadImage src={`${slides ? slides[currentIndex]?.url : neuronaHome}`} alt="ups hubo un error" className='w-full rounded-t-2xl'/>
             </div>
             {/* Left Arrow */}
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-6 text-md xl:text-2xl rounded-full p-2 bg-black/40 text-white cursor-pointer'>
@@ -120,7 +122,7 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
                 
                 <div className="rounded-[2rem] w-[360px]">
                     {
-                        mobileImages.map((img, index) => <img src={img} key={index++} className="-mt-4 block w-[360px] h-[572px]" alt=""/>)
+                        mobileImages.map((img, index) => <LazyLoadImage src={img} key={index++} className="-mt-4 block w-[360px] h-[572px]" alt=""/>)
                     }
                 </div>
                 <div className='sticky -bottom-2 py-4 px-6 left-0 bg-gray-800 flex justify-between items-center w-full text-3xl'>

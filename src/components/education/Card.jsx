@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import certificadoHenry from '../../assets/experience/certificado-henry.png'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import {TbFileCertificate} from 'react-icons/tb'
 import {MdOutlinePeopleAlt} from 'react-icons/md'
@@ -48,7 +48,7 @@ const Card = ({isEducation, title, name, date, description, reviews, certificate
                 onClick={() => setHiddenModal(true)}
                 className={`${hiddenModal ? 'hidden' : 'fixed'} w-full h-full flex items-center justify-center top-0 left-0 z-40 p-4 overflow-x-hidden overflow-y-auto md:inset-0 backdrop-blur-sm bg-black/20`}>
 
-                    <img className='mx-auto w-11/12 lg:w-1/2' src={certificate} alt="certificate" />
+                    <LazyLoadImage className='mx-auto w-11/12 lg:w-1/2' src={certificate} alt="certificate" />
                 </div> : 
                 <div 
                 onClick={() => setHiddenModal(true)}
@@ -63,7 +63,7 @@ const Card = ({isEducation, title, name, date, description, reviews, certificate
                                         </span>
                                     </div>
                                     <div className='flex items-center gap-x-4'>
-                                        <img className='rounded-full w-28 h-28' src={review.image} alt="compas" />
+                                        <LazyLoadImage className='rounded-full w-28 h-28' src={review.image} alt="compas" />
                                         <div className='text-center flex flex-col gap-y-2 items-center'>
                                             <a href={review.linkedin} target = '_blank' className='hover:underline text-xl font-semibold'>{review.name}</a>
                                             <span>{review.profession}</span>
