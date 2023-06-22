@@ -53,7 +53,7 @@ const Card = ({isEducation, title, name, date, description, reviews, certificate
                 <div 
                 onClick={() => setHiddenModal(true)}
                 className={`${hiddenModal ? 'hidden' : 'fixed'} w-full h-full flex items-center justify-center top-0 left-0 z-40 p-4 overflow-x-hidden overflow-y-auto md:inset-0 backdrop-blur-sm bg-black/20`}>
-                    <div className='flex flex-wrap gap-y-8 lg:flex-nowrap w-full lg:w-3/4 gap-x-12'>
+                    <div className='flex flex-wrap gap-y-8 lg:flex-nowrap w-full lg:w-3/4 gap-x-12 justify-center'>
                         {
                             reviews.map((review, index) => {
                                 return <div key={index++} className='w-full lg:w-1/3 bg-zinc-800/90 relative px-6 py-12 text-white text-center flex flex-col items-center gap-y-8 border-green-500 border rounded-xl'>
@@ -63,7 +63,7 @@ const Card = ({isEducation, title, name, date, description, reviews, certificate
                                         </span>
                                     </div>
                                     <div className='flex items-center gap-x-4'>
-                                        <img className='rounded-full w-28 h-28' src={review.image} alt="algo" />
+                                        <img className='rounded-full w-28 h-28' src={review.image} alt="compas" />
                                         <div className='text-center flex flex-col gap-y-2 items-center'>
                                             <a href={review.linkedin} target = '_blank' className='hover:underline text-xl font-semibold'>{review.name}</a>
                                             <span>{review.profession}</span>

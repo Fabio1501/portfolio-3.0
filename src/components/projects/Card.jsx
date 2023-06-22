@@ -100,14 +100,16 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
             <hr className='opacity-30'/>
             <p className='text-gray-400 text-sm xl:text-lg'>{description}</p>
             <div className='flex items-center gap-x-2 xl:gap-x-4'>
-                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl bg-green-700 border-green-700 border-2 hover:bg-green-600 hover:cursor-pointer font-semibold rounded-xl'>
-                    <a href={urls.deploy} target='_blank'>Ver OnLine</a>
+                <a href={urls.deploy} target='_blank' 
+                className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl bg-green-700 border-green-700 border-2 hover:bg-green-600 hover:cursor-pointer font-semibold rounded-xl'>
+                    <span >Ver OnLine</span>
                     <BsBoxArrowUpRight></BsBoxArrowUpRight>
-                </div>
-                <div className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl border-green-600 border-2 rounded-xl hover:cursor-pointer hover:bg-white/5'>
-                    <a href={urls.repository} target='_blank'>Ver Repo</a>
+                </a>
+                <a href={urls.deploy} target='_blank' 
+                className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl border-green-600 border-2 rounded-xl hover:cursor-pointer hover:bg-white/5'>
+                    <span >Ver Repo</span>
                     <BsGithub></BsGithub>
-                </div>
+                </a>
             </div>
         </div>
         <div 

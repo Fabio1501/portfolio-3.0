@@ -76,7 +76,6 @@ const Contact = () => {
     // )
     try {
       let publica = import.meta.env.VITE_SERVICE_ID
-      console.log(publica);
 
       await send(
         import.meta.env.VITE_SERVICE_ID,

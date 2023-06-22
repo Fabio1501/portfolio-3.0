@@ -87,13 +87,13 @@ const Education = () => {
                     linkedin: t("experience.mercadoSolidario.reviews.delwin.linkedin"),
                     description: t("experience.mercadoSolidario.reviews.delwin.description")
                 },
-                {
-                    image: gustavo,
-                    name: t("experience.mercadoSolidario.reviews.gustavo.name"),
-                    profession: t("experience.mercadoSolidario.reviews.gustavo.profession"),
-                    linkedin: t("experience.mercadoSolidario.reviews.gustavo.linkedin"),
-                    description: t("experience.mercadoSolidario.reviews.gustavo.description")
-                },
+                // {
+                //     image: gustavo,
+                //     name: t("experience.mercadoSolidario.reviews.gustavo.name"),
+                //     profession: t("experience.mercadoSolidario.reviews.gustavo.profession"),
+                //     linkedin: t("experience.mercadoSolidario.reviews.gustavo.linkedin"),
+                //     description: t("experience.mercadoSolidario.reviews.gustavo.description")
+                // },
                 {
                     image: juli,
                     name: t("experience.mercadoSolidario.reviews.juli.name"),
