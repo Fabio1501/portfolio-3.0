@@ -24,10 +24,10 @@ const Footer = () => {
 
         try {
             await send(
-              "service_cwwtt6a",
-              'template_rf4nwto',
+              import.meta.env.VITE_SERVICE_ID,
+              import.meta.env.VITE_TEMPLATE2_ID,
               {reply_to: subscribe}, 
-              "h0qPCEPUOQCAODry3"
+              import.meta.env.VITE_PUBLIC_KEY
             )
       
             setIsHidden(false)

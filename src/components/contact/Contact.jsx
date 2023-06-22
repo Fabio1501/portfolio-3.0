@@ -75,11 +75,14 @@ const Contact = () => {
     //   process.env.REACT_APP_PUBLIC_KEY
     // )
     try {
+      let publica = import.meta.env.VITE_SERVICE_ID
+      console.log(publica);
+
       await send(
-        "service_cwwtt6a",
-        'template_a7kbm1l',
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE1_ID,
         templateParams, 
-        "h0qPCEPUOQCAODry3"
+        import.meta.env.VITE_PUBLIC_KEY
       )
 
       setIsHidden(false)
@@ -91,6 +94,7 @@ const Contact = () => {
         message: ''
       })
     } catch (error) {
+      console.log(error);
       setIsHidden(false)
       setIsSuccess(false)
     } finally {
@@ -138,7 +142,7 @@ const Contact = () => {
             </a >
           </div>
         </div>
-        <form onSubmit={handleSubmit} className='px-4 xl:w-1/2 flex flex-col border-green-700 border-2 rounded-xl items-center justify-center py-6 gap-y-6'>
+        <form onSubmit={handleSubmit} className='text-white px-4 xl:w-1/2 flex flex-col border-green-700 border-2 rounded-xl items-center justify-center py-6 gap-y-6'>
           <h2 className='text-2xl font-bold text-white'>{t("contact.subtitle2")}</h2>
           <span className='text-white px-4 xl:px-16 text-center mb-8'>{t("contact.paragraph")}</span>
           <input 
