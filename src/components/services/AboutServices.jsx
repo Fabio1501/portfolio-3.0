@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-// import { LazyLoadImage } from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import cleanCode from '../../assets/services - clean-code.png'
 import modernDesign from '../../assets/services - modern-design.png'
