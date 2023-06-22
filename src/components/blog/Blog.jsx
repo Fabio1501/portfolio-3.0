@@ -23,7 +23,7 @@ import {MdOutlineNature} from 'react-icons/md'
 
 export const post = [
     {
-        id: '76259a41-0000-6ac3c88905e4',
+        id: '0000',
         title: 'Descubre las ventajas de utilizar Tailwind en el desarrollo web',
         description : 'Para lograr sitios web atractivos, funcionales y eficientes, es muy importante utilizar herramientas que optimicen el proceso de diseño y desarrollo. En este sentido, Tailwind se ha posicionado como una opción popular entre los desarrolladores web debido a sus numerosas ventajas. En este artículo, exploraremos las razones por las cuales Tailwind se ha convertido en una herramienta crucial para muchos profesionales en el mundo del desarrollo web.',
         date: '15/04/2023',
@@ -41,7 +41,7 @@ export const post = [
         lectureMinutes: '5 minutos de lectura'
     },
     {
-        id: '76259a41-0001-6ac3c88905e4',
+        id: '0001',
         title: 'Ejemplos de uso en Tailwind',
         description : 'Tailwind ha ganado popularidad entre los desarrolladores por su enfoque único en la productividad y la personalización. En este artículo, no solo exploraremos las ventajas generales de utilizar Tailwind, sino que también proporcionaremos ejemplos prácticos de cómo puedes aprovechar sus clases para crear diseños sorprendentes, incluso si recién estás empezando en el desarrollo web podrás sacarle provecho a este artículo.',
         date: '16/06/2023',
@@ -67,7 +67,7 @@ export const post = [
         lectureMinutes: '5 minutos de lectura'
     },
     {
-        id: '76259a41-0002-6ac3c88905e4',
+        id: '0002',
         title: 'La importancia del establecimiento de metas',
         description : 'Al establecer metas claras y significativas, te das la oportunidad de superarte cada día y lograr tus aspiraciones más grandes. En este artículo, exploraremos la importancia del establecimiento de metas y brindaremos consejos prácticos sobre cómo puedes hacerlo de manera efectiva para mejorar tu desarrollo y las posibilidades de éxito.',
         date: '19/06/2023',
@@ -87,7 +87,7 @@ export const post = [
         lectureMinutes: '5 minutos de lectura'
     },
     {
-        id: '76259a41-0003-6ac3c88905e4',
+        id: '0003',
         title: 'Inteligencia artificial que transforma PDFs y URLs en conocimiento interactivo',
         description : 'En este artículo, exploraremos una IA revolucionaria que permite cargar PDFs y URLs de sitios web, y a partir de esa información, genera contexto y permite a los usuarios hacer preguntas relacionadas con esos datos. Esta tecnología promete transformar la forma en que interactuamos con la información y abre nuevas oportunidades para la toma de decisiones informada.',
         date: '17/04/2023',
