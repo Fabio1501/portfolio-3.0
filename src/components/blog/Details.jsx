@@ -21,12 +21,12 @@ const Details = () => {
     let postsForCategory =  post.filter(post => post.category === article.category && post.id !== id)
 
     const shareSocialRed = () => {
-        const articleUrl = `https://fabidev.vercel.app/blog/${id}`;
+        const articleUrl = `https://fabidev.vercel.app`;
 
         if (navigator.share) {
             navigator.share({
             title: article.title,
-            text: 'Mira este interesante artículo!',
+            text: `Mira este interesante artículo: \n ${article.title}! \n`,
             url: articleUrl
             })
             .then(() => {
