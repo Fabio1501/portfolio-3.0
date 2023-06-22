@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import {AiOutlineEye} from 'react-icons/ai'
 
@@ -14,22 +14,6 @@ import { Link } from "react-router-dom";
 const Services = () => {
     
     const [t, i18n] = useTranslation("services")
-    // const gsapService1 = useRef(null);
-    
-    // gsap.registerPlugin(ScrollTrigger);
-    // useEffect(() => {
-    //     // gsap.set("#service1", { opacity: 0 });
-    //     gsap.to("#service1", {
-    //         opacity: 1,
-    //         duration: 1,
-    //         scrollTrigger: {
-    //             trigger: "#service1",
-    //             start: "top 80%", // Change opacity when element is 80% in view
-    //             end: "bottom 20%", // Change opacity when element is 20% out of view
-    //             toggleActions: "play none none reverse", // Play animation when element enters view, reverse when it leaves
-    //         },
-    //     });
-    // }, [])
 
     return(
         <div className="max-w-[1280px] w-full m-auto py-12 px-8 lg:px-24 md:py-12">
@@ -49,25 +33,25 @@ const Services = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-y-4 w-full lg:w-1/2 gap-x-4">
                     <div className="w-full flex flex-col items-center text-white text-center gap-y-4">
                         <div id="service1" className="flex flex-col items-center p-4 bg-white/5">
-                            <img src={webDesign} alt="branding" />
+                            <LazyLoadImage src={webDesign} alt="branding" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle1")}</h3>
                             <p className="mt-4">{t("services.servicePragraph1")}</p>
                         </div>
                         <div className="flex flex-col items-center p-4 bg-gradient-to-b from-white/5 to-green-600/10">
-                            <img src={branding} alt="webDesign" />
+                            <LazyLoadImage src={branding} alt="webDesign" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle2")}</h3>
                             <p className="mt-4">{t("services.servicePragraph2")}</p>
                         </div>
                     </div>
                     <div className="w-full flex flex-col items-center text-white text-center gap-y-4">
                         <div id="service2" className="flex flex-col items-center p-4 bg-gradient-to-b from-white/5 to-green-600/10">
-                            <img src={apiRest} alt="" />
+                            <LazyLoadImage src={apiRest} alt="apiRest" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle3")}</h3>
                             <p className="mt-4">{t("services.servicePragraph3")}</p>
                             
                         </div>
                         <div className="flex flex-col items-center p-4 bg-white/5">
-                            <img src={integrations} alt="" />
+                            <LazyLoadImage src={integrations} alt="integrations" />
                             <h3 className="font-bold text-2xl">{t("services.serviceTitle4")}</h3>
                             <p className="mt-4">{t("services.servicePragraph4")}</p>
                         </div>

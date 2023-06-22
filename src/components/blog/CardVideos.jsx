@@ -1,10 +1,12 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import {FiVideo} from 'react-icons/fi'
 import {FiVideoOff} from 'react-icons/fi'
 
 const CardVideos = ({img, title, category, paragraph, date, url}) => {
     return(
         <div className="text-white flex flex-col w-full lg:w-[31%] gap-y-2 rounded-b-xl">
-            <img className="w-full" src={img} alt={title} />
+            <LazyLoadImage className="w-full" src={img} alt={title} />
             <div className="flex flex-col p-4 gap-y-4 bg-gradient-to-t from-white/5 rounded-b-xl">
                 <div className="flex items-center justify-between">
                     <h3 className="text-xl font-semibold">{title}</h3>

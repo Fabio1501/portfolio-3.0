@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Modal from "./Modal";
 import { gsap } from "gsap";
 import { useTranslation } from "react-i18next";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import { HiOutlinePlay } from 'react-icons/hi';
 import {FaReact} from 'react-icons/fa'
@@ -77,7 +78,7 @@ export default function Home() {
           <FaNodeJs id="nodeIcon" className="xl:top-10 xl:right-0 absolute z-10 top-20 right-20 text-8xl text-green-600"></FaNodeJs>
           <SiPostgresql id="postgreIcon" className="absolute xl:-left-[45px] z-10 bottom-10 left-10 text-8xl text-green-600"></SiPostgresql>
           <SiTailwindcss id="tailwindIcon" className="xl:top-100 xl:-right-10 absolute z-10 top-56 right-10 text-8xl text-green-600"></SiTailwindcss>
-          <img src={fabiDev} alt="" className=" m-auto rounded-r-full rounded-t-full bg-green-200/5 p-6 border-green-600 border-2"/>
+          <LazyLoadImage src={fabiDev} alt="me" className="m-auto rounded-r-full rounded-t-full bg-green-200/5 p-6 border-green-600 border-2"/>
         </div>
       </div>
       <Modal aboutUs = {aboutUs} setAboutUs = {setAboutUs}></Modal>
