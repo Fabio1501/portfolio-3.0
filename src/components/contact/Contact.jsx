@@ -68,15 +68,7 @@ const Contact = () => {
       message:    objEmail.message
     };
 
-    // const responseEmailJs = await send(
-    //   process.env.REACT_APP_SERVICE_ID,
-    //   process.env.REACT_APP_TEMPLATE_ID, 
-    //   templateParams, 
-    //   process.env.REACT_APP_PUBLIC_KEY
-    // )
     try {
-      let publica = import.meta.env.VITE_SERVICE_ID
-
       await send(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE1_ID,
