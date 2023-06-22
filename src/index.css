@@ -1,3 +1,144 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .card {
+        width: 100px; 
+        height: 100px; 
+        clip-path: polygon(0 0, 0% 100%, 100% 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* Clase personalizada para el componente de scroll */
+    .scroll-dark {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.1) rgba(0, 0, 0, 0.1);
+    
+        /* Cambiar el color de fondo a negro*/
+        background-color: #1a1a1a;
+    
+        /* Hacer el texto más claro */
+        color: rgba(255, 255, 255, 0.3);
+    }
+  
+    /* Personaliza el aspecto de la barra de desplazamiento */
+    .scroll-dark::-webkit-scrollbar {
+        width: 1px;
+    }
+    
+    .scroll-dark::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 1);
+    }
+    
+    .scroll-dark::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 1);
+    }
+
+    .camera{
+        -webkit-clip-path: ellipse(19% 16% at 51% 0%);
+        clip-path: ellipse(19% 16% at 51% 0%);
+    }
+    
+    .tooltip {
+        font-weight: normal;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .tooltip:hover {
+        text-decoration: underline;
+    }
+    
+    .tooltip-box {
+        /* display: none; */
+        position: absolute;
+        line-height: 20px;
+        z-index: 500;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        bottom: 30px;
+    }
+    
+    .tooltip:hover .tooltip-box {
+        display: inline-block;
+    }
+    
+    .tooltip-box::after {
+        content: "";
+        display: block;
+        border-top: 15px solid rgb(17 24 39);
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        position: absolute;
+        bottom: -12px;
+        left: calc(50% - 32px);
+    }
+
+    @keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+      
+      .logos {
+        overflow: hidden;
+        padding: 60px 0;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      .logos:before,
+      .logos:after {
+        position: absolute;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+      }
+      
+      /* .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+      }
+      
+      .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+      } */
+      
+      .logos:hover .logos-slide {
+        animation-play-state: paused;
+      }
+      
+      .logos-slide {
+        display: inline-block;
+        animation: 35s slide infinite linear;
+        display: flex;
+      }
+      
+    @media (min-width: 768px) {
+        .logos:before {
+            left: 0;
+            background: linear-gradient(to left, rgba(255, 255, 255, 0), black);
+        }
+          
+        .logos:after {
+            right: 0;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
+        }
+    }     
+
+    .me {
+      backdrop-filter: drop-shadow(40px 40px 30px #42a047);
+    }
+  }

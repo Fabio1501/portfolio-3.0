@@ -21,6 +21,19 @@
         "btnTitle2": "CONOCEME",
         "btnTitle3": "Curriculum",
         "modal" : "Hola, soy FabiDev"
+    },
+    "nav" :{
+        "home" : "Inicio",
+        "projects" : "Proyectos",
+        "contact"  : "Contacto",
+        "blog" : "Blog"
+    },
+    "footer" : {
+        "rights" : "Todos los derechos reservados.",
+        "contact" : "Contáctame",
+        "btn" : "Suscribete",
+        "placeholder" : "Su dirección de Email...",
+        "follow" : "Sígueme" 
     }
 }
 

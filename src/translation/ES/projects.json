@@ -1,0 +1,139 @@
+{
+    "projects1": {
+        "title": "NEURONA CORP",
+        "description": "Landing page de la startup Neurona Corp, desarrollada durante 1 mes junto al equipo de dicha startup. La interfaz gráfica está pensada para darle una grata visión de lo que genera y provee Neurona Corp, además de ser muy futurista y moderna. Está desarrollada en React para las funcionalidades en el lado del front end y TailwindCss para los estilos. Además tiene integraciones con NodeMailer para la recepción y envío de mensajes a través de Gmail. También cuenta con una integración con CalendLy para poder contactar de forma inmediata, sin salir de la web, al CEO/CTO de la empresa.",
+        "date": "10/03/2023 - Actualmente"
+    },
+    "projects2": {
+        "title": "PORTAFOLIO FABIDEV",
+        "description": "Mi portfolio, lo pensé mucho teniendo en cuenta mi marca personal, aportando valor a las personas que se animan a entrar al mundo IT y porque no a los que ya están hace bastante tiempo. Mi idea es promocionarme e invitar a reclutadores y/o posibles clientes a confiar en mis servicios. La interfaz gráfica me fue muy fácil definirla ya que desde el comienzo tenía una visión muy clara de lo que quería. Tiene integraciones con dos servicios de EmailJS para la recepción y envío de mensajes. Proximamente será ampliamente escalada, ya que, quiero que el usuario se sienta mucho más a gusto en mi web.",
+        "date": "15/05/2023 - Actualmente"
+    },
+    "projects3": {
+        "title": "MERCADO SOLIDARIO",
+        "description": "Proyecto desarrollado por el equipo Mercado Solidario, proyecto final para el bootcamp SoyHenry pero con constantes feedbacks de un cliente real. Te permite donar a causas beneficas creadas por ONGs validadas anteriormente a través de una API de AFIP y su registro único tributario. Implementamos funcionalidades como un lector y un generador de codigo QR para cuando una persona quiere donar de forma fisica o quiere ser voluntario. Ademas cuando el usuario quiera donar en efectivo, integramos la API de PayPal para hacer mas fácil, rápida y segura dicha transacción.",
+        "date": "05/01/2023 - 10/02/23"
+    },
+    "projects4": {
+        "title": "APLICACIÓN DE COMIDAS",
+        "description": "FoodApp fue creado por mí en la etapa del 'Proyecto Individual' en el bootcamp SoyHenry. Consiste en mostrar al cliente todas las recetas que le ofrece FoodAPP, a la vez para una mejor experiencia de usuario, se le da la opcion de filtrar por tipos de dietas, buscar segun el nombre de la receta, a la vez que ordenar por orden alfabetico y segun su grado de salubilidad. Ademas el usuario podra acceder al detalle de cada receta, viendo asi que ingredientes debe tener para llevarla a cabo. Por ultimo, el usuario podra crear sus propias recetas siempre y cuando, no exista la misma, en la base de datos.",
+        "date": "15/11/2022 - 22/12/2022"
+    },
+    "projects5": {
+        "title": "MANDALA DISEÑOS",
+        "description": "Es el primer proyecto real que desarrollé. Se trata de una landing page creada principalmente para ofrecer servicios de papelería e impresiones, como así también diseño gráfico. La desarrollé puramente con HTML, CSS y JS. Las tecnologías base en cuanto a desarrollo web. Se logró aumentar significativamente las ventas con este proyecto ya que el público objetivo estaba en un rango provincial, el cliente quedó muy satisfecho con el resultado. Tiene integraciones con FormSubmit para la recepción de emails. La interfaz gráfica está pensada para ser muy amable con el usuario y lo invite a invertir.",
+        "date": "15/06/2022 - 25/08/22"
+    },
+    "education" : {
+        "henryDev" : {
+            "title" : "Full Stack Developer",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "11/10/22 - 08/02/2023",
+            "description" : "Completé más de 800 horas de código, enfocándome tanto en habilidades técnicas como blandas. Destaqué entre los 3 únicos promocionados en pasar directamente a la etapa de proyecto final y fui parte del mejor proyecto grupal de mi cohorte. Adquirí conocimientos sólidos en desarrollo web, tanto en la parte del cliente como del servidor con el stack MERN/PERN. Además las habilidades blandas que adquirí son algo digno de resaltar."
+        },
+        "henryTa" : {
+            "title" : "Asistente del profesor",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "04/12/22 - 08/02/2023",
+            "description" : "Fui tutor de los alumnos que ingresaban a cursar los primeros módulos teóricos, este puesto consta de tener un espacio con los alumnos de 1 hora todos los días durante 2 meses. Mi rol constaba en ser el nexo entre los alumnos y el profesor. Comunicaba problemas de los alumnos para que el profesor mejore en esos aspectos al dar las clases. Además destacaba coordinando y apoyando a los alumnos en sus problemas técnicos cuando era necesario."
+        },
+        "ingenieriaSist" : {
+            "title" : "Ingeniería en sistemas de información",
+            "name" : "Universidad Tecnológica Nacional",
+            "date" : "12/04/19 - 23/04/2022",
+            "description" : "Cursé durante 2 años (netos) la carrera. Tengo aprobadas 6 materias y regularizadas 5 materias. En estos años aprendí a tener un enfoque analítico en cuanto a resolución de problemas. Además de una constante formación en pensamiento lógico matemático. Durante este tiempo también puedo decir que adquirí una gran habilidad en gestión y organización del tiempo la cual me dura hasta el día de hoy, esto me ayuda mucho en mi día a día actualmente."
+        }
+    },
+    "experience": {
+        "neurona" : {
+            "title" : "Ingeniero de Software",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actualidad",
+            "description" : "Hace 3 meses me desempeño como desarrollador web en esta startup, mi experiencia es de lo más grata ya que me encontré con personas con muchas ganas de trabajar y superarse día a día. Mejoré en mis habilidades como autodidacta y de investigación de tecnologías desconocidas para mi hasta el momento en que pisé la startup. Además mi habilidad de gestión y organización del tiempo se vió muy favorecida.",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://www.linkedin.com/in/alvaroquirogatoledo/",
+                    "description" : "Desde que Fabian comenzó a trabajar como Líder de proyectos en Neurona Corp, su desempeño ha sido bastante destacado, es un profesional ordenado, disciplinado, con visión y con un tremendo background técnico. Sin lugar a dudas lo recomiendo, y estoy seguro que será un tremendo aporte como Líder en otros equipos."
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://www.linkedin.com/in/bautista-pietraroia/",
+                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://www.linkedin.com/in/jonathan-diaz-olivares/",
+                    "description" : "Recomiendo a Fabian Carabajal por su destacada labor como líder técnico en Neurona Corp. Su liderazgo en el desarrollo del servicio de chatbot con respuesta automática, utilizando tecnologías de vanguardia como Node y React alojados en servicios AWS, ha sido excepcional. Su experiencia y habilidades han sido fundamentales para el éxito del proyecto."
+                }
+            }
+        },
+        "mercadoSolidario" : {
+            "title" : "Desarrollador Full Stack",
+            "name" : "Mercado Solidario",
+            "date" : "12/12/2022 - 08/02/2023",
+            "description" : "Durante el desarrollo de este MVP para un cliente real, pude adquirir habilidades de iniciativa al desarrollar un producto, trabajo en equipo, comunicación efectiva y además de potenciar mis habilidades técnicas de forma enorme. Mi habilidad de autodidacta fue puesta a prueba muchas veces pero pude salir adelante logrando desarrollar todas las historias de usuario de forma efectiva y antes del tiempo establecido.",
+            "reviews" : {
+                "delwin" : {
+                    "name" : "Delwin Hernandez",
+                    "profession" : "Desarrollador back end",
+                    "linkedin" : "https://www.linkedin.com/in/delwin-hernandez-b926182b/",
+                    "description" : "Tuve el placer de colaborar con Fabián en el proyecto Mercado Solidario y puedo decir que fue una experiencia sumamente enriquecedora tanto a nivel personal como profesional. Tiene una habilidad impresionante para organizar y enfocar el trabajo hacia los objetivos establecidos mientras mantiene una actitud positiva y ayuda a sus compañeros a llegar a su máximo potencial. Además de su habilidad técnica, es una persona amigable y con mucha calidad humana. "
+                },
+                "gustavo" : {
+                    "name" : "Gustavo Ramos",
+                    "profession" : "Desarrollador front end",
+                    "linkedin" : "https://www.linkedin.com/in/gustavo-ramos-full-stack/",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "juli" : {
+                    "name" : "Julian Lopez",
+                    "profession" : "Desarrollador front end",
+                    "linkedin" : "https://linkedin.com/in/julian-lopez-7b9746234/",
+                    "description" : "Fue un privilegio trabajar con Fabi, es un gran compañero y líder de equipo. Es muy proactivo y aporta gran valor al equipo de trabajo. Siempre demostró grandes habilidades para la programación y mucho compromiso. Hizo que el ambiente de trabajo colaborativo fuera muy agradable."
+                }
+            }
+        },
+        "mandala" : {
+            "title" : "Desarrollador front end",
+            "name" : "Mandala Diseños",
+            "date" : "15/06/2022 - 25/08/2022",
+            "description" : "La experiencia que adquirí en mi primer proyecto real y de forma individual fue de lo más enriquecedora. Desde el primer momento todo cobraba sentido para mi, pude sortear todas las adversidades de forma victoriosa, cumpliendo con todas las expectativas del cliente y entregandole el producto en menos tiempo del establecido. Las habilidades técnicas que adquirí no se comparan con nada a lo que venía haciendo anteriormente a esto.",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                }
+            }
+        }
+    },
+    "contact": {
+        "subtitle" : "CONTACTAME",
+        "title1" : "Trabajemos",
+        "title2" : "juntos",
+        "subtitle2" : "¡Enviame un mensaje!",
+        "paragraph" : "Si quieres contactarme por cualquier pregunta que tengas o si quieres que trabajemos juntos, no dudes en contactarme por cualquiera de mis redes.",
+        "placeholder1" : "Nombre",
+        "placeholder2" : "Email",
+        "placeholder3" : "Asunto",
+        "placeholder4" : "Mensaje",
+        "submit" : "Enviar mensaje"
+    }
+}

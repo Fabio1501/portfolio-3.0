@@ -1,0 +1,159 @@
+{
+    "projects1": {
+        "title": "NEURONA CORP",
+        "description": "Landing page for the startup Neurona Corp, developed during 1 month with the startup's team. The graphical interface is designed to give you a nice view of what Neurona Corp generates and provides, besides being very futuristic and modern. It is developed in React for the front end functionalities and TailwindCss for the styles. It also has integrations with NodeMailer for receiving and sending messages through Gmail. It also has an integration with CalendLy to be able to contact immediately, without leaving the web, the CEO/CTO of the company.",
+        "date": "10/03/2023 - Actually"
+    },
+    "projects2": {
+        "title": "PORTFOLIO FABIDEV",
+        "description": "My portfolio, I thought a lot taking into account my personal brand, bringing value to people who are encouraged to enter the IT world and why not to those who are already there for a long time. My idea is to promote myself and invite recruiters and / or potential clients to rely on my services. The graphical interface was very easy to define since from the beginning I had a very clear vision of what I wanted. It has integrations with two EmailJS services for receiving and sending messages. Soon it will be extensively scaled, because I want the user to feel much more comfortable on my website.",
+        "date": "15/05/2023 - Actually"
+    },
+    "projects3": {
+        "title": "SOLIDARITY MARKET",
+        "description": "Project developed by the Mercado Solidario team, final project for the SoyHenry bootcamp but with constant feedback from a real client. It allows you to donate to charitable causes created by NGOs previously validated through an AFIP API and its unique tax registration. We implemented features such as a reader and a QR code generator for when a person wants to donate physically or wants to volunteer. In addition, when the user wants to donate in cash, we integrate the PayPal API to make the transaction easier, faster and safer.",
+        "date": "05/01/2023 - 10/02/23"
+    },
+    "projects4": {
+        "title": "FOOD APP",
+        "description": "FoodApp was created by me in the 'Individual Project' stage in the SoyHenry bootcamp. It consists of showing the client all the recipes offered by FoodAPP, while for a better user experience, it gives the option to filter by type of diet, search by the name of the recipe, while sorting by alphabetical order and according to their degree of healthiness. In addition, the user will be able to access the details of each recipe, thus seeing what ingredients it must have to carry it out. Finally, the user will be able to create his own recipes as long as the same one does not exist in the database.",
+        "date": "15/11/2022 - 22/12/2022"
+    },
+    "projects5": {
+        "title": "MANDALA DESIGN",
+        "description": "This is the first real project I developed. It is a landing page created mainly to offer stationery and printing services, as well as graphic design. I developed it purely with HTML, CSS and JS. The base technologies in terms of web development. We were able to significantly increase sales with this project because the target audience was in a provincial range, the client was very satisfied with the result. It has integrations with FormSubmit for receiving emails. The graphical interface is designed to be very user friendly and to invite the user to invest.",
+        "date": "15/06/2022 - 25/08/22"
+    },
+    "education" : {
+        "henryDev" : {
+            "title" : "Full Stack Developer",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "11/10/22 - 08/02/2023",
+            "description" : "During my participation in the SoyHenry bootcamp, I completed over 800 hours of coding, focusing on both technical and soft skills. I was among the only 3 promoted to move directly to the final project stage and was part of the best group project of my cohort. I gained solid knowledge in web development and I am looking for opportunities to continue growing and applying my skills in the MERN/PERN stack with passion and dedication."
+        },
+        "henryTa" : {
+            "title" : "Teaching Assistant",
+            "name" : "Soy Henry Bootcamp",
+            "date" : "04/12/22 - 08/02/2023",
+            "description" : "I was a tutor for the students who were taking the first theoretical modules, this position consisted of having a space with the students for 1 hour every day for 2 months. My role consisted of being the link between the students and the teacher. I communicated problems of the students so that the teacher could improve in those aspects when giving classes. I also excelled in coordinating and supporting the students in their technical problems when necessary."
+        },
+        "ingenieriaSist" : {
+            "title" : "Engineering in information systems",
+            "name" : "Nacional Technology University",
+            "date" : "12/04/19 - 23/04/2022",
+            "description" : "I studied for 2 years (net). I have passed 6 subjects and regularized 5 subjects. In these years I learned to have an analytical approach to problem solving. In addition to a constant training in mathematical logical thinking. During this time I can also say that I acquired a great ability in time management and organization which lasts until today, this helps me a lot in my day to day life."
+        }
+    },
+    "experience": {
+        "neurona" : {
+            "title" : "Software Engineer",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actually",
+            "description" : "For 3 months I have been working as a web developer in this startup, my experience is very pleasant because I met people with a lot of desire to work and improve day by day. I improved in my skills as a self-taught and research of unknown technologies for me until the moment I stepped on the startup. In addition, my time management and organization skills were greatly improved.",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://www.linkedin.com/in/alvaroquirogatoledo/",
+                    "description" : "Since Fabian started working as a Project Leader at Neurona Corp, his performance has been quite outstanding, he is an orderly, disciplined professional, with vision and a tremendous technical background. Without a doubt I recommend him, and I am sure he will be a tremendous contribution as a leader in other teams."
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Full Stack Developer",
+                    "linkedin" : "https://www.linkedin.com/in/bautista-pietraroia/",
+                    "description" : "It was a privilege to work with Fabi, he is a great teammate and team leader. He is very proactive and brings great value to the team. He always demonstrated great programming skills and a lot of commitment. He made the collaborative work environment very pleasant."
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Full Stack Developer",
+                    "linkedin" : "https://www.linkedin.com/in/jonathan-diaz-olivares/",
+                    "description" : "I recommend Fabian Carabajal for his outstanding work as technical lead at Neurona Corp. His leadership in the development of the chatbot service with automatic response, using cutting-edge technologies such as Node and React hosted on AWS services, has been exceptional. His experience and skills have been critical to the success of the project."
+                }
+            }
+        },
+        "mercadoSolidario" : {
+            "title" : "Full Stack Developer",
+            "name" : "Solidarity Market",
+            "date" : "12/12/2022 - 08/02/2023",
+            "description" : "During the development of this MVP for a real client, I was able to acquire skills of initiative in developing a product, teamwork, effective communication and also to enhance my technical skills tremendously. My self-taught skills were put to the test many times but I was able to come out ahead by developing all the user stories effectively and ahead of schedule.",
+            "reviews" : {
+                "delwin" : {
+                    "name" : "Delwin Hernandez",
+                    "profession" : "Back End Developer",
+                    "linkedin" : "https://www.linkedin.com/in/delwin-hernandez-b926182b/",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "gustavo" : {
+                    "name" : "Gustavo Ramos",
+                    "profession" : "Front End Developer",
+                    "linkedin" : "https://www.linkedin.com/in/gustavo-ramos-full-stack/",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "juli" : {
+                    "name" : "Julian Lopez",
+                    "profession" : "Front End Developer",
+                    "linkedin" : "https://www.linkedin.com/in/julian-lopez-7b9746234/",
+                    "description" : "It was a privilege to work with Fabi, he is a great teammate and team leader. He is very proactive and brings great value to the team. He always demonstrated great programming skills and a lot of commitment. He made the collaborative work environment very pleasant."
+                }
+            }
+        },
+        "mandala" : {
+            "title" : "Software Engineer",
+            "name" : "Neurona Corp",
+            "date" : "10/03/2023 - Actualidad",
+            "description" : "The experience I gained in my first real project and individually was most enriching. From the first moment everything made sense to me, I was able to overcome all the adversities in a victorious way, fulfilling all the client's expectations and delivering the product in less time than established. The technical skills I acquired do not compare with anything I was doing before this.",
+            "reviews" : {
+                "alvaro" : {
+                    "name" : "Alvaro Quiroga",
+                    "profession" : "CEO/CTO",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "bauti" : {
+                    "name" : "Bautista Pietraroia",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                },
+                "jonathan" : {
+                    "name" : "Jonathan Díaz",
+                    "profession" : "Desarrollador full stack",
+                    "linkedin" : "https://linkedin.com",
+                    "description" : "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+                }
+            }
+        }
+    },
+    "contact": {
+        "subtitle" : "CONTACT ME",
+        "title1" : "Let's work",
+        "title2" : "together",
+        "subtitle2" : "Send me a message!",
+        "paragraph" : "If you want to contact me for any questions you have or if you want to work together, feel free to contact me through any of my networks.",
+        "placeholder1" : "Name",
+        "placeholder2" : "Email",
+        "placeholder3" : "Subject",
+        "placeholder4" : "Message",
+        "submit" : "Send message"
+    },
+    "blog": {
+        "title1": "Blog",
+        "title2": " personal",
+        "filter1": "Todos",
+        "filter2": "Crecimiento Personal",
+        "filter3": "Inteligencia Artificial",
+        "filter4": "Desarrollo Web",
+        "title3": "Videos",
+        "title4": "YouTube",
+        "filter5": "Todos",
+        "filter6": "Videos",
+        "filter7": "Cortos",
+        "post1": {
+            "title": "Descubre las ventajas de utilizar Tailwind en el desarrollo web",
+            "description" : "Para lograr sitios web atractivos, funcionales y eficientes, es muy importante utilizar herramientas que optimicen el proceso de diseño y desarrollo. En este sentido, Tailwind se ha posicionado como una opción popular entre los desarrolladores web debido a sus numerosas ventajas. En este artículo, exploraremos las razones por las cuales Tailwind se ha convertido en una herramienta crucial para muchos profesionales en el mundo del desarrollo web.",
+            "post": {
+                "introduction" : "Para lograr sitios web atractivos, funcionales y eficientes, es crucial utilizar herramientas y tecnologías que optimicen el proceso de diseño y desarrollo. En este sentido, Tailwind se ha posicionado como una opción popular entre los desarrolladores web debido a sus numerosas ventajas. En este artículo, exploraremos las razones por las cuales Tailwind se ha convertido en una herramienta indispensable para muchos profesionales en el mundo del desarrollo web."
+            }
+        }
+    }
+}
