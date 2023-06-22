@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import cleanCode from '../../assets/services - clean-code.png'
 import modernDesign from '../../assets/services - modern-design.png'
@@ -19,7 +19,7 @@ const AboutServices = () => {
         <div className="w-full">
             <div className="max-w-[1280px] flex flex-col lg:flex-row items-center justify-between gap-x-12 lg:py-12 px-8 lg:px-24 mx-auto">
                     <div className="relative hidden w-full lg:w-1/2 text-white font-semibold lg:flex flex-col rounded-b-full">
-                        <LazyLoadImage src={avatar} alt="Me" className="w-11/12 me"/>
+                        <img src={avatar} alt="Me" className="w-11/12 me"/>
                         <div className='absolute h-44 w-full bg-gradient-to-t from-black bottom-0 left-0 z-10'></div>
                         <BsLightningFill className="text-7xl text-green-700 absolute top-10"></BsLightningFill>    
                         <FaRegHandshake className="absolute top-10 right-12 text-7xl text-green-700"></FaRegHandshake>
