@@ -372,8 +372,8 @@ function Projects() {
     <div className='py-6 xl:py-24 w-full'>
       <div className='flex flex-col max-w-[1280px] mx-auto px-8 xl:px-24'>
         <div className='font-bold self-start'>
-          <span className="text-sm text-green-300 mb-4 md:text-xl font-normal">PROYECTOS</span>
-          <h1 className="text-white xl:text-4xl text-xl md:text-5xl">Portafolios <b className="font-black text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-green-400 to-green-600">personal</b></h1>
+          <span className="text-sm text-green-300 mb-4 md:text-xl font-normal">{t("projectsSubtitle")}</span>
+          <h1 className="text-white xl:text-4xl text-xl md:text-5xl">{t("projectsTitle1")}<b className="font-black text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-green-400 to-green-600">{t("projectsTitle2")}</b></h1>
           <div className="h-[4px] lg:h-2 bg-green-600 w-1/4 lg:w-1/5 mt-4"></div>
         </div>
       </div>

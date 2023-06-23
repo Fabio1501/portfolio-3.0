@@ -1,4 +1,7 @@
 {
+    "projectsTitle1" : "Portafolio",
+    "projectsTitle2" : " personal",
+    "projectsSubtitle" : "PROYECTOS",
     "projects1": {
         "title": "NEURONA CORP",
         "description": "Landing page de la startup Neurona Corp, desarrollada durante 1 mes junto al equipo de dicha startup. La interfaz gráfica está pensada para darle una grata visión de lo que genera y provee Neurona Corp, además de ser muy futurista y moderna. Está desarrollada en React para las funcionalidades en el lado del front end y TailwindCss para los estilos. Además tiene integraciones con NodeMailer para la recepción y envío de mensajes a través de Gmail. También cuenta con una integración con CalendLy para poder contactar de forma inmediata, sin salir de la web, al CEO/CTO de la empresa.",
@@ -25,6 +28,8 @@
         "date": "15/06/2022 - 25/08/22"
     },
     "education" : {
+        "title" : "EDUCACIÓN",
+        "btn" : "Ver certificado",
         "henryDev" : {
             "title" : "Full Stack Developer",
             "name" : "Soy Henry Bootcamp",
@@ -45,6 +50,8 @@
         }
     },
     "experience": {
+        "title" : "EXPERIENCIA LABORAL",
+        "btn" : "Ver reseña",
         "neurona" : {
             "title" : "Ingeniero de Software",
             "name" : "Neurona Corp",

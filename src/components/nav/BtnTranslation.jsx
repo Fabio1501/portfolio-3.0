@@ -25,20 +25,22 @@ const BtnTranslation = () => {
             onClick={() => {
               setSpanish(true)
               setEnglish(false)
+              setDropdown(false)
               i18n.changeLanguage("es")
               return 0;
             }}
-            className={`${spanish ? 'text-green-600 bg-gray-800' : 'text-white'} block px-4 py-2 hover:bg-gray-800 w-full text-start`}>Español</button>
+            className={`${spanish ? 'text-green-600 bg-gray-800' : 'text-white'} block px-4 py-2 hover:bg-gray-800 w-full text-start`}>{t("nav.btnSpanish")}</button>
           </li>
           <li>
             <button 
             onClick={() => {
               setSpanish(false)
               setEnglish(true)
+              setDropdown(false)
               i18n.changeLanguage("en")
               return 0;
             }}
-            className={`${english ? 'text-green-600 bg-gray-800' : 'text-white'} block px-4 py-2 hover:bg-gray-800 w-full text-start`}>English</button>
+            className={`${english ? 'text-green-600 bg-gray-800' : 'text-white'} block px-4 py-2 hover:bg-gray-800 w-full text-start`}>{t("nav.btnEnglish")}</button>
           </li>
         </ul>
       </div>
