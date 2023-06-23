@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useTranslation } from "react-i18next";
 
 import {TbFileCertificate} from 'react-icons/tb'
 import {MdOutlinePeopleAlt} from 'react-icons/md'
@@ -7,6 +8,7 @@ import {MdOutlinePeopleAlt} from 'react-icons/md'
 const Card = ({isEducation, title, name, date, description, reviews, certificate, btn}) => {
 
     const [hiddenModal, setHiddenModal] = useState(true)
+    const [t, i18n] = useTranslation("projects")
 
     return(
         <div className="flex items-center">
@@ -26,13 +28,13 @@ const Card = ({isEducation, title, name, date, description, reviews, certificate
                 {!btn ? '' : isEducation ? 
                     <div className='flex gap-x-2 items-center'>
                         <span>
-                            Ver certificación
+                            {t("education.btn")}
                         </span>
                         <TbFileCertificate className='text-xl'></TbFileCertificate>
                     </div> : 
                     <div className='flex gap-x-2 items-center'>
                     <span>
-                        Ver reviews
+                        {t("experience.btn")}
                     </span>
                     <MdOutlinePeopleAlt className='text-xl'></MdOutlinePeopleAlt>
                 </div>

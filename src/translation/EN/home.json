@@ -26,13 +26,15 @@
         "home" : "Home",
         "projects" : "Projects",
         "contact"  : "Contact",
-        "blog" : "Blog"
+        "blog" : "Blog",
+        "btnSpanish" : "Spanish",
+        "btnEnglish" : "English" 
     },
     "footer" : {
         "rights" : "All rights reserved.",
         "contact" : "Contact Me",
         "btn" : "subscribe",
         "placeholder" : "Your email address...",
-        "follow" : "Follow Us" 
+        "follow" : "Follow Me" 
     }
 }

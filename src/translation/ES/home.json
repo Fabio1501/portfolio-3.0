@@ -7,7 +7,7 @@
         "seconds": "Segundos"
     },
     "home": {
-        "subtitle": "Desarrollador Pila Completa",
+        "subtitle": "Desarrollador Full Stack",
         "title": "Desarrollando ",
         "title1": "soluciones ",
         "title2": "",
@@ -16,7 +16,7 @@
         "title5": "relaciones ",
         "title6": "",
         "title7": "cercanas",
-        "paragraph": "Hey! Como estás? Te cuento sobre mi brevemente, soy desarrollador web full stack MERN/PERN. Soy una persona muy constante, me gusta trabajar en equipo y forjar relaciones sanas. Pongo a la persona que está detrás del profesional por encima de todo y destaco mucho los valores, la ética y la moral del de a lado.",
+        "paragraph": "¡Hey! ¿Cómo estás? Te cuento sobre mi brevemente: soy desarrollador web full stack MERN/PERN. Soy una persona muy constante, me gusta trabajar en equipo y forjar relaciones sanas. Pongo a la persona que está detrás del profesional por encima de todo y destaco mucho los valores, la ética y la moral del de al lado.",
         "btnTitle1": "SOBRE MI",
         "btnTitle2": "CONOCEME",
         "btnTitle3": "Curriculum",
@@ -26,7 +26,9 @@
         "home" : "Inicio",
         "projects" : "Proyectos",
         "contact"  : "Contacto",
-        "blog" : "Blog"
+        "blog" : "Blog",
+        "btnSpanish" : "Español",
+        "btnEnglish" : "Inglés"
     },
     "footer" : {
         "rights" : "Todos los derechos reservados.",

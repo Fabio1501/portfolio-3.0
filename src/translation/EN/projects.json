@@ -1,4 +1,7 @@
 {
+    "projectsTitle1" : "Personal",
+    "projectsTitle2" : " portfolio",
+    "projectsSubtitle" : "PROJECTS",
     "projects1": {
         "title": "NEURONA CORP",
         "description": "Landing page for the startup Neurona Corp, developed during 1 month with the startup's team. The graphical interface is designed to give you a nice view of what Neurona Corp generates and provides, besides being very futuristic and modern. It is developed in React for the front end functionalities and TailwindCss for the styles. It also has integrations with NodeMailer for receiving and sending messages through Gmail. It also has an integration with CalendLy to be able to contact immediately, without leaving the web, the CEO/CTO of the company.",
@@ -25,6 +28,8 @@
         "date": "15/06/2022 - 25/08/22"
     },
     "education" : {
+        "title" : "EDUCATION",
+        "btn" : "View certificate",
         "henryDev" : {
             "title" : "Full Stack Developer",
             "name" : "Soy Henry Bootcamp",
@@ -45,6 +50,8 @@
         }
     },
     "experience": {
+        "title" : "WORK EXPERIENCE",
+        "btn" : "View review",
         "neurona" : {
             "title" : "Software Engineer",
             "name" : "Neurona Corp",

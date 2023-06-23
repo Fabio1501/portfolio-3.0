@@ -50,7 +50,7 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
         <div className='h-full w-full m-auto relative group rounded-t-2xl'>
             <div
             className='w-full h-full rounded-t-2xl bg-center bg-cover duration-500'>
-                <LazyLoadImage src={`${slides ? slides[currentIndex]?.url : neuronaHome}`} alt="ups hubo un error" className='w-full rounded-t-2xl'/>
+                <LazyLoadImage src={`${slides ? slides[currentIndex]?.url : neuronaHome}`} alt="ups hubo un error" className='w-full rounded-t-2xl h-[150px] md:h-auto xl:h-[240px]'/>
             </div>
             {/* Left Arrow */}
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-6 text-md xl:text-2xl rounded-full p-2 bg-black/40 text-white cursor-pointer'>
@@ -107,7 +107,7 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
                     <span >Ver OnLine</span>
                     <BsBoxArrowUpRight></BsBoxArrowUpRight>
                 </a>
-                <a href={urls.deploy} target='_blank' 
+                <a href={urls.repository} target='_blank' 
                 className='flex items-center justify-between px-4 xl:px-6 py-2 xl:py-3 gap-x-2 text-sm xl:text-xl border-green-600 border-2 rounded-xl hover:cursor-pointer hover:bg-white/5'>
                     <span >Ver Repo</span>
                     <BsGithub></BsGithub>

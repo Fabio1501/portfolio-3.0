@@ -140,7 +140,7 @@ const Education = () => {
         <div className="py-12 bg-gradient-to-r from-white/5 to-green-600/5">
             <div className="max-w-[1280px] m-auto px-8 lg:px-24 flex flex-col gap-y-8 lg:flex-row gap-x-8">
                 <div className="flex flex-col items-center justify-between gap-y-8">
-                    <h2 className="self-start text-white text-3xl font-bold">EDUCACION</h2>
+                    <h2 className="self-start text-white text-3xl font-bold">{t("education.title")}</h2>
                     {
                         education?.map((institute, index) => {
                             return <Card key={index++} isEducation={true} title = {institute.title} name = {institute.name} date = {institute.date} description = {institute.description} certificate = {institute.certificate} btn = {institute.btn}/>
@@ -148,7 +148,7 @@ const Education = () => {
                     }
                 </div>
                 <div className="flex flex-col items-center justify-between gap-y-8">
-                    <h2 className="lg:ml-[56px] self-start text-white text-3xl font-bold">EXPERIENCIA LABORAL</h2>
+                    <h2 className="lg:ml-[56px] self-start text-white text-3xl font-bold">{t("experience.title")}</h2>
                     {
                         experience.map((institution, index) => {
                             return <Card key={index++} title = {institution.title} name = {institution.name} date = {institution.date} description = {institution.description} reviews = {institution.reviews} btn = {institution.btn}/>
