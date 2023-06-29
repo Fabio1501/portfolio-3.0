@@ -22,7 +22,7 @@ const Details = () => {
     let postsForCategory =  post.filter(post => post.category === article.category && post.id !== id)
 
     const shareSocialRed = () => {
-        const articleUrl = `https://fabidev.vercel.app`;
+        const articleUrl = `https://fabidev.vercel.app/blog/${article.id}`;
 
         if (navigator.share) {
             navigator.share({
