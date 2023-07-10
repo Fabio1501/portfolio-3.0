@@ -7,6 +7,7 @@ import Alert from '../contact/Alert';
 import postDev1 from '../../assets/blog/desarrollo-web/post1.png'
 import postDev2 from '../../assets/blog/desarrollo-web/post2.png'
 import postIa1 from '../../assets/blog/inteligencia-artificial/post1.png'
+import postIa2 from '../../assets/blog/inteligencia-artificial/post2.png'
 import postPer1 from '../../assets/blog/crecimiento-personal/post1.png'
 
 import video1 from '../../assets/blog/videos/quien-soy-yo.png'
@@ -130,6 +131,28 @@ export const post = [
             </div>
         `,
         lectureMinutes: '5 minutos de lectura'
+    },
+    {
+        id: '0004',
+        title: '¡Herramienta de IA para desarrolladores!',
+        description : '¿Eres desarrollador? Prepárate para ahorrar tiempo y mejorar tu productividad. Esta IA está diseñada especialmente para ayudarte a resolver problemas y potenciar tu trabajo de programación. ¡Es como tener un senior supervisándote!',
+        date: '10/07/2023',
+        img: postIa2,
+        category: 'artificialIntelligence',
+        post: `
+            <p>¿Eres desarrollador? Prepárate para ahorrar tiempo y mejorar tu productividad. Esta IA está diseñada especialmente para ayudarte a resolver problemas y potenciar tu trabajo de programación. ¡Es como tener un senior supervisándote!</p>
+            <img src="https://i.postimg.cc/TP9Qf881/image.png" alt="rix" class='my-8 w-full '/>
+            <h2 style="font-size:32px;margin-top:12px;">Tu senior y navegador a la orden<h2/>
+            <p>Lo mejor de esta <a href="https://openchat.so/app" target="_blank" style="text-decoration:underline;color:blue;">IA<a/> es que puede absorber todo el contexto de una URL o incluso analizar repositorios de GitHub. ¡Ponle la URL que quieras y verás cómo te sorprende con respuestas en tiempo real! ¿Necesitas información específica de un repositorio en GitHub? No hay drama, <a href="https://openchat.so/app" target="_blank" style="text-decoration:underline;color:blue;">Rix<a/> lo hace por vos. Si se lo pides, te proporcionará detalles clave, fragmentos de código y una visión general del proyecto para que puedas ahorrar tiempo y entender rápidamente lo que necesitas.</p>
+            <h2 style="font-size:32px;margin-top:12px;">Contextos y más contextos...<h2/>
+            <p>Rix es un verdadero crack en lenguajes y herramientas de programación. Si tienes dudas sobre JavaScript, React, Tailwind o cualquier otro lenguaje o framework popular, Rix tiene todas las respuestas. No importa si necesitas una explicación de conceptos, ejemplos de código o simplemente quieres aprender algo nuevo, Rix está para ayudarte.</p>
+            <img src="https://i.postimg.cc/T3m5rnCX/image.png" alt="rix" class='my-8 '/>
+            <h2 style="font-size:32px;margin-top:12px;">This is free!!! <h2/>
+            <p>Y lo mejor de todo es que es totalmente gratuito. Aunque todavía está en fase beta, la gente detrás de HashNode quieren mimarnos, a nosotros desarrolladores, con este lujo. Están constantemente trabajando para mejorar la IA y ampliar sus capacidades, así que seguramente habrá más sorpresas en el futuro.</p>
+            <h2 style="font-size:32px;margin-top:12px;">¿No te acuerdas como hacer lo que solucionaste ayer?<h2/>
+            <p>¿Todavía hay más? ¡Pues, si! ¡Todavía hay más! Rix guarda todas tus conversaciones anteriores, así que no tienes que preocuparte por perder información importante. Todo estará guardado y listo para ti cuando lo necesites. ¡Es como tener un archivo de respuestas para tus preguntas más frecuentes!</p>
+        `,
+        lectureMinutes: '4 minutos de lectura'
     },
 ]
 
