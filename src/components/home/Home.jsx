@@ -67,7 +67,7 @@ export default function Home() {
                 <span className="text-sm lg:text-base">{t("home.btnTitle2")}</span>
               </div>
             </button>
-            <a href="https://www.docdroid.net/mrppxoe/fabian-carabajal-full-stack-developer-pdf" target="_blank" className="flex justify-between items-center gap-x-4 text-center px-3 py-2 hover:bg-green-600 text-white font-semibold md:px-8 md:py-3 bg-green-700">
+            <a href="https://www.docdroid.net/UjaxfZT/cv-es-fabian-carabajal-desarrollador-full-stack-pdf" target="_blank" className="flex justify-between items-center gap-x-4 text-center px-3 py-2 hover:bg-green-600 text-white font-semibold md:px-8 md:py-3 bg-green-700">
               <span className="text-lg md:text-2xl">{t("home.btnTitle3")}</span>
               <BsArrowUpRight className="text-2xl"></BsArrowUpRight>
             </a>
