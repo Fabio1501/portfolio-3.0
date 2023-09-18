@@ -11,8 +11,8 @@ import {SiJavascript} from 'react-icons/si'
 import {SiPostgresql} from 'react-icons/si'
 import {SiExpress} from 'react-icons/si'
 import {BsBoxArrowUpRight} from 'react-icons/bs'
-import {TbBrandCss3} from 'react-icons/tb'
-import {SiPrisma} from 'react-icons/si'
+import {TbBrandCss3, TbBrandNextjs} from 'react-icons/tb'
+import {SiPrisma, SiTypescript} from 'react-icons/si'
 import {SiHtml5} from 'react-icons/si'
 import {ImMobile} from 'react-icons/im'
 
@@ -92,7 +92,7 @@ function Card({slides, techs, title, date, description, urls, mobileImages, mobi
                     techs.map((tech) => {
                         return(
                             <div className='text-xl xl:text-3xl flex flex-col items-center opacity-60'>
-                                {tech.icon == 'FaReact' ? <FaReact className=' text-gray-300'></FaReact> : tech.icon == 'SiTailwindcss' ? <SiTailwindcss className=' text-gray-300'></SiTailwindcss> : tech.icon == 'FaNodeJs' ? <FaNodeJs className=' text-gray-300'></FaNodeJs> : tech.icon == 'SiMongodb' ? <SiMongodb className=' text-gray-300'></SiMongodb> : tech.icon == 'SiExpress' ? <SiExpress className=' text-gray-300'></SiExpress> : tech.icon == 'SiJavascript' ? <SiJavascript className=' text-gray-300'></SiJavascript> : tech.icon == 'SiPostgresql' ? <SiPostgresql className=' text-gray-300'></SiPostgresql> : tech.icon == 'TbBrandCss3' ? <TbBrandCss3 className=' text-gray-300'></TbBrandCss3> : tech.icon == 'SiPrisma' ? <SiPrisma className=' text-gray-300'></SiPrisma> : tech.icon == 'SiHtml5' ? <SiHtml5 className=' text-gray-300'></SiHtml5> : ''}
+                                {tech.icon == 'FaReact' ? <FaReact className=' text-gray-300' /> : tech.icon == 'SiTailwindcss' ? <SiTailwindcss className=' text-gray-300' /> : tech.icon == 'FaNodeJs' ? <FaNodeJs className=' text-gray-300' /> : tech.icon == 'SiMongodb' ? <SiMongodb className=' text-gray-300' /> : tech.icon == 'SiExpress' ? <SiExpress className=' text-gray-300' /> : tech.icon == 'SiJavascript' ? <SiJavascript className=' text-gray-300' /> : tech.icon == 'SiPostgresql' ? <SiPostgresql className=' text-gray-300' /> : tech.icon == 'TbBrandCss3' ? <TbBrandCss3 className=' text-gray-300' /> : tech.icon == 'SiPrisma' ? <SiPrisma className=' text-gray-300'/> : tech.icon == 'SiHtml5' ? <SiHtml5 className=' text-gray-300'/> : tech.icon == 'TbBrandNextjs' ? <TbBrandNextjs className=' text-gray-300'/> : tech.icon == 'SiTypescript' ? <SiTypescript className=' text-gray-300'/> : ""}
                                 <span className='hidden md:block text-sm xl:text-xl text-gray-300 font-semibold'>{tech.name}</span>
                             </div>
                         )
