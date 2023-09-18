@@ -33,9 +33,14 @@
         "date": "15/07/2023 - Actually"
     },
     "projects7": {
-        "title": "FetsBNB",
+        "title": "FestBNB",
         "description": "It's an MVP in which I worked together with a team of developers. We made the AirBNB app clone. At the beginning of the web we have a quick view of all the party rooms that can be rented more filters and categories of the different rooms. To the administrators (owners of salons), we give them a very intuitive way to post the same with different stages in the process. In addition, the way to view and edit them is simpler. To common users we give a very particular view of the detail of each room with very colorful data of the room with more than 5 images and a very good security with reviews and personal details of the client who posts them.",
-        "date": "15/07/2023 - Actually"
+        "date": "02/07/2023 - 03/08/2023"
+    },
+    "projects8": {
+        "title": "Connecta",
+        "description": "It's an MVP in which I worked together with a team of developers. We made the clone of the Slack app. We have a landing where we seek to enhance the positive features of the application. Users can be registered and logged in locally or with Google. It has a quick view section of user workspaces and also a button to create your own workspace. When you create a workspace, by default, a channel is created. In this we find the real-time chat where the user can communicate with his team.",
+        "date": "10/08/2023 - 14/09/2023"
     },
     "education" : {
         "title" : "EDUCATION",

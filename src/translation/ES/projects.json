@@ -35,7 +35,12 @@
     "projects7": {
         "title": "FestBNB",
         "description": "Es un MVP en el cual trabajé junto a un equipo de desarrolladores. Hicimos el clon de la aplicación de AirBNB. En el inicio de la web contamos con una vista rápida de todos los salones de fiesta que se pueden alquilar más filtros y categorías de los distintos salones. A los administradores (dueños de salones), les damos una forma muy intuitiva de postear el mismo con distintas etapas en el proceso. Además de que la forma de verlos y editarlos es de más sencilla. A los usuarios comunes le damos una vista muy particular del detalle de cada salon con datos muy vistosos del salón con más de 5 imagenes y una seguridad muy buena con reseñas y detalles personales del cliente que los postea.",
-        "date": "15/07/2023 - Actualidad"
+        "date": "02/07/2023 - 03/08/2023"
+    },
+    "projects8": {
+        "title": "Connecta",
+        "description": "Es un MVP en el cual trabajé junto a un equipo de desarrolladores. Hicimos el clon de la aplicación de Slack. Contamos con una landing en donde buscamos realzar las caracteristicas positivas de la aplicación. Se puede registrar e iniciar sesión de usuarios a través de forma local o con Google. Cuenta con una sección de vista rápida de espacios de trabajo del usuario y además un botón para crear su propio espacio de trabajo. Al crear un espacio de trabajo, de forma predeterminada, se crea un canal. En este encontramos el chat en tiempo real donde el usuario podrá comunicarse con su equipo.",
+        "date": "10/08/2023 - 14/09/2023"
     },
     "education" : {
         "title" : "EDUCACIÓN",
