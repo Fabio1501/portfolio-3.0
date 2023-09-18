@@ -27,6 +27,11 @@
         "description": "This is the first real project I developed. It is a landing page created mainly to offer stationery and printing services, as well as graphic design. I developed it purely with HTML, CSS and JS. The base technologies in terms of web development. We were able to significantly increase sales with this project because the target audience was in a provincial range, the client was very satisfied with the result. It has integrations with FormSubmit for receiving emails. The graphical interface is designed to be very user friendly and to invite the user to invest.",
         "date": "15/06/2022 - 25/08/22"
     },
+    "projects6": {
+        "title": "ZIBA",
+        "description": "It is a freelance project which I started from 0. It has 3 sections, a landing page in which you can see the services offered by the organization and reviews of real customers. The contact section so that the user can send an email to Ziba and the 'about us' section. Also, for administrators, it has a local login and through Google. It also has a panel in which you can manage customers, products and reviews intuitively.",
+        "date": "15/07/2023 - Actually"
+    },
     "education" : {
         "title" : "EDUCATION",
         "btn" : "View certificate",

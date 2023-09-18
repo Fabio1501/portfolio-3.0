@@ -27,6 +27,11 @@
         "description": "Es el primer proyecto real que desarrollé. Se trata de una landing page creada principalmente para ofrecer servicios de papelería e impresiones, como así también diseño gráfico. La desarrollé puramente con HTML, CSS y JS. Las tecnologías base en cuanto a desarrollo web. Se logró aumentar significativamente las ventas con este proyecto ya que el público objetivo estaba en un rango provincial, el cliente quedó muy satisfecho con el resultado. Tiene integraciones con FormSubmit para la recepción de emails. La interfaz gráfica está pensada para ser muy amable con el usuario y lo invite a invertir.",
         "date": "15/06/2022 - 25/08/22"
     },
+    "projects6": {
+        "title": "ZIBA",
+        "description": "Se trata de un proyecto freelance el cual inicié desde 0. Cuenta con 3 secciones, una landing page en la cual se pueden ver los servicios que ofrece la organización y las reseñas de clientes reales. La sección contacto para que el usuario pueda enviar un email a Ziba y la sección 'sobre nosotros'. También, para los administradores, cuenta con un inicio de sesión local y a través de Google. Además posee un panel en el cual se pueden administrar los clientes, los productos y las reseñas de forma intuitiva.",
+        "date": "15/07/2023 - Actualidad"
+    },
     "education" : {
         "title" : "EDUCACIÓN",
         "btn" : "Ver certificado",
