@@ -82,6 +82,13 @@ import festbnb4 from "../../assets/projects/festbnb/image4.png"
 import festbnb5 from "../../assets/projects/festbnb/image5.png"
 import festbnb6 from "../../assets/projects/festbnb/image6.png"
 
+import connecta1 from "../../assets/projects/connecta/image1.png"
+import connecta2 from "../../assets/projects/connecta/image2.png"
+import connecta3 from "../../assets/projects/connecta/image3.png"
+import connecta4 from "../../assets/projects/connecta/image4.png"
+import connecta5 from "../../assets/projects/connecta/image5.png"
+import connecta6 from "../../assets/projects/connecta/image6.png"
+
 
 function Projects() {
   
@@ -153,6 +160,61 @@ function Projects() {
     {
       slides : [
           {
+            url: connecta1,
+          },
+          {
+            url: connecta2,
+          },
+          {
+            url: connecta3,
+          },
+          {
+            url: connecta4,
+          },
+          {
+            url: connecta5,
+          },
+          {
+            url: connecta6,
+          }
+      ],
+      title: t("projects8.title"),
+      date: t("projects8.date"),
+      techs: [
+        {
+        icon : "FaReact",
+        name : "React.js"
+        },
+        {
+          icon : "SiTailwindcss",
+          name : "Tailwind"
+        },
+        {
+          icon : "SiMongodb",
+          name : "MongoDB"
+        },
+        {
+          icon : "SiTypescript",
+          name : "TypeScript"
+        },
+        {
+          icon : "SiExpress",
+          name : "Express.js"
+        }
+      ],
+      description: t("projects8.description"),
+      urls: {
+        deploy: "https://connecta-v1.vercel.app/",
+        repository: "https://github.com/No-Country/s10-07-t-express-react-slack"
+      },
+      mobile: false,
+      // Falta agregar mobile
+      mobileImages: [
+      ]
+    },
+    {
+      slides : [
+          {
             url: festbnb1,
           },
           {
@@ -186,7 +248,6 @@ function Projects() {
           icon : "SiMongodb",
           name : "MongoDB"
         },
-        ,
         {
           icon : "SiTypescript",
           name : "TypeScript"
