@@ -75,6 +75,13 @@ import ziba7 from "../../assets/projects/ziba/image7.png"
 import ziba8 from "../../assets/projects/ziba/image8.png"
 import ziba9 from "../../assets/projects/ziba/image9.png"
 
+import festbnb1 from "../../assets/projects/festbnb/image1.png"
+import festbnb2 from "../../assets/projects/festbnb/image2.png"
+import festbnb3 from "../../assets/projects/festbnb/image3.png"
+import festbnb4 from "../../assets/projects/festbnb/image4.png"
+import festbnb5 from "../../assets/projects/festbnb/image5.png"
+import festbnb6 from "../../assets/projects/festbnb/image6.png"
+
 
 function Projects() {
   
@@ -127,12 +134,68 @@ function Projects() {
         {
           icon : "SiMongodb",
           name : "MongoDB"
+        },
+        {
+          icon : "TbBrandNextjs",
+          name : "Next.js"
         }
       ],
       description: t("projects6.description"),
       urls: {
         deploy: "https://ziba-rust.vercel.app",
         repository: ""
+      },
+      mobile: false,
+      // Falta agregar mobile
+      mobileImages: [
+      ]
+    },
+    {
+      slides : [
+          {
+            url: festbnb1,
+          },
+          {
+            url: festbnb2,
+          },
+          {
+            url: festbnb3,
+          },
+          {
+            url: festbnb4,
+          },
+          {
+            url: festbnb5,
+          },
+          {
+            url: festbnb6,
+          }
+      ],
+      title: t("projects7.title"),
+      date: t("projects7.date"),
+      techs: [
+        {
+        icon : "FaReact",
+        name : "React.js"
+        },
+        {
+          icon : "SiTailwindcss",
+          name : "Tailwind"
+        },
+        {
+          icon : "SiMongodb",
+          name : "MongoDB"
+        },
+        ,
+        {
+          icon : "SiTypescript",
+          name : "TypeScript"
+        }
+      ],
+      description: t("projects7.description"),
+      urls: {
+        deploy: "",
+        repository: "https://github.com/No-Country/c12-33-t-node-react/"
       },
       mobile: false,
       // Falta agregar mobile

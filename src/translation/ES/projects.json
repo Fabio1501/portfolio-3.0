@@ -32,6 +32,11 @@
         "description": "Se trata de un proyecto freelance el cual inicié desde 0. Cuenta con 3 secciones, una landing page en la cual se pueden ver los servicios que ofrece la organización y las reseñas de clientes reales. La sección contacto para que el usuario pueda enviar un email a Ziba y la sección 'sobre nosotros'. También, para los administradores, cuenta con un inicio de sesión local y a través de Google. Además posee un panel en el cual se pueden administrar los clientes, los productos y las reseñas de forma intuitiva.",
         "date": "15/07/2023 - Actualidad"
     },
+    "projects7": {
+        "title": "FestBNB",
+        "description": "Es un MVP en el cual trabajé junto a un equipo de desarrolladores. Hicimos el clon de la aplicación de AirBNB. En el inicio de la web contamos con una vista rápida de todos los salones de fiesta que se pueden alquilar más filtros y categorías de los distintos salones. A los administradores (dueños de salones), les damos una forma muy intuitiva de postear el mismo con distintas etapas en el proceso. Además de que la forma de verlos y editarlos es de más sencilla. A los usuarios comunes le damos una vista muy particular del detalle de cada salon con datos muy vistosos del salón con más de 5 imagenes y una seguridad muy buena con reseñas y detalles personales del cliente que los postea.",
+        "date": "15/07/2023 - Actualidad"
+    },
     "education" : {
         "title" : "EDUCACIÓN",
         "btn" : "Ver certificado",

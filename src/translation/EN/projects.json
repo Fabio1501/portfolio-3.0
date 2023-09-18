@@ -32,6 +32,11 @@
         "description": "It is a freelance project which I started from 0. It has 3 sections, a landing page in which you can see the services offered by the organization and reviews of real customers. The contact section so that the user can send an email to Ziba and the 'about us' section. Also, for administrators, it has a local login and through Google. It also has a panel in which you can manage customers, products and reviews intuitively.",
         "date": "15/07/2023 - Actually"
     },
+    "projects7": {
+        "title": "FetsBNB",
+        "description": "It's an MVP in which I worked together with a team of developers. We made the AirBNB app clone. At the beginning of the web we have a quick view of all the party rooms that can be rented more filters and categories of the different rooms. To the administrators (owners of salons), we give them a very intuitive way to post the same with different stages in the process. In addition, the way to view and edit them is simpler. To common users we give a very particular view of the detail of each room with very colorful data of the room with more than 5 images and a very good security with reviews and personal details of the client who posts them.",
+        "date": "15/07/2023 - Actually"
+    },
     "education" : {
         "title" : "EDUCATION",
         "btn" : "View certificate",
