@@ -64,12 +64,81 @@ import portfolio6 from "../../assets/projects/portfolio/portfolio6.png"
 import portfolio7 from "../../assets/projects/portfolio/portfolio7.png"
 import portfolio8 from "../../assets/projects/portfolio/portfolio8.png"
 
+import zibaMockup from "../../assets/projects/ziba/mockup.png"
+import ziba1 from "../../assets/projects/ziba/image1.png"
+import ziba2 from "../../assets/projects/ziba/image2.png"
+import ziba3 from "../../assets/projects/ziba/image3.png"
+import ziba4 from "../../assets/projects/ziba/image4.png"
+import ziba5 from "../../assets/projects/ziba/image5.png"
+import ziba6 from "../../assets/projects/ziba/image6.png"
+import ziba7 from "../../assets/projects/ziba/image7.png"
+import ziba8 from "../../assets/projects/ziba/image8.png"
+import ziba9 from "../../assets/projects/ziba/image9.png"
 
 
 function Projects() {
   
   const [t, i18n] = useTranslation("projects")
   const projects = [
+    {
+      slides : [
+          {
+            url: zibaMockup,
+          },
+          {
+            url: ziba1,
+          },
+          {
+            url: ziba2,
+          },
+          {
+            url: ziba3,
+          },
+          {
+            url: ziba4,
+          },
+          {
+            url: ziba5,
+          },
+          {
+            url: ziba6,
+          },
+          {
+            url: ziba7,
+          },
+          {
+            url: ziba8,
+          },
+          {
+            url: ziba9,
+          },
+      ],
+      title: t("projects6.title"),
+      date: t("projects6.date"),
+      techs: [
+        {
+        icon : "FaReact",
+        name : "React.js"
+        },
+        {
+          icon : "SiTailwindcss",
+          name : "Tailwind"
+        },
+        {
+          icon : "SiMongodb",
+          name : "MongoDB"
+        }
+      ],
+      description: t("projects6.description"),
+      urls: {
+        deploy: "https://ziba-rust.vercel.app",
+        repository: ""
+      },
+      mobile: false,
+      // Falta agregar mobile
+      mobileImages: [
+      ]
+    },
     {
       slides : [
           {
